@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katonai tengeralattjárók</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container row">
+  
+        <header>
+          <div class="col-lg-12 mx-auto w-75"  >
+               <h1 >Katonai Tengeralattjárók</h1>
+          </div>
+        </header>
+   
+        <div id="navg">
+          <p>Tovább a többi oldalra</p>
+          <nav>
+          
+            <div id="fooldal" class="navh"><a href="index.html">Főoldal</a></div>
+            <div class="navh"><a href="Tengeralatt.html">Bevezető </a></div>
+            <div class="navh"><a href="Tengeralatt1.html">1850 – 1930-as évek  </a></div>
+            <div class="navh"><a href="Tengeralatt2.html"> Az 1930-as és 1950-es évek  </a></div>
+            <div class="navh"><a href="Tengeralatt3.html">1950-es évek  </a></div>
+          </nav>
+        </div>
+  
+          
+        <h1 style="text-align: center;">Az 1930-as és 1950-es évek: <br> A tengeralattjárók fellendülése</h1>
+
+         <div>
+             <p id="jus">
+                 1933-ban Helmuth Walter professzor forradalmi új tervekkel állt elő tengeralattjárók számára. Ezek a víz alatti sebességének háromszorosát nyújtó áramvonalas hajók voltak, melyeknek felszíni sebessége 26 csomó, víz alatti sebessége pedig 30 csomó, 2500 tengeri mérföldes hatótávolsággal. Az első kísérleti modelleket csak 1939-ben rendelték meg, és 1940-ben mutatták be. A professzor azt ajánlotta, hogy ha 12 tengeralattjárót feláldoznak, ő három év alatt elkészít egy gyors harci hajót. Ez az időtartam túl hosszúnak bizonyult Dr. Friedrich Schürer szerint, és nem kapott támogatást Admiral Werner Fuchstól. Bár Reader és Dönitz tudomást szerzett a projektről, nem tettek semmit a gyártás felgyorsítása érdekében, amely csak 1942-ben kezdődött el.
+                         A fejlesztés során különféle típusú tengeralattjárókat hoztak létre különböző célokra, ideértve az aircraft carriereket, a hadakat, a partvédelmet, a nyílt-tengeri utazást, az alacsony vízi sebességet, az ellátást és az ellátást, valamint az úszó repülőgépeket és a robotrepülőket. Az 1930-as években a hegesztés lehetővé tette a hengeres nyomástartó hajótestektől való eltérést, növelve az erősséget és a teljesítményt. A 40-es évek elejére az elliptikus keresztmetszetű hajók jelentek meg, majd az osztott és kettős ellipszoid kialakítások. 1944 tavaszára a légbeszívó oszlop megoldotta a felszíni utazás problémáját a főmotorokkal, amelyek akár 5–6 méterrel a felszín alatt is voltak.
+                         A legjelentősebb minőségi változások 1945 és 1954 között történtek. Bár kevesebb tengeralattjárót építettek, méretük nőtt. Új, speciális típusok jelentek meg, ideértve a helikoptereket, mini-tengeralattjárókat, partraszálló hajókat, rakétákat és drónokat fedélzeti hangárokban. Vízvédett ágyúkat alkalmaztak, de később teljesen elhagyták őket. Tengeralattjáró osztályokat fejlesztettek üzemanyagszállításhoz, aknák telepítéséhez, rádió és radarközvetítéshez, ellátáshoz, tároláshoz és javításhoz, a vízkiszorítás pedig 1200 tonnáról 2300 tonnára növekedett 1945-ben. A Szovjetunió hatalmas flottát kezdett el építeni dízel-elektromos tengeralattjárókból, melyek a haditengerészet gerincét alkották. 1954-től nukleáris meghajtás jelent meg, amelyet kezdetben fokozatosan fogadtak el az Egyesült Államokban (ahol már nincsenek hagyományos tengeralattjárók). A 50-es évekre a vízkiszorítás elérte a 3300 tonnát. Jelentős fejlesztés volt a könnyített könnyező alakú formák bevezetése 1959-ben, amelyek lehetővé tették a gyorsabb víz alatti utazást, mint a felszínen. A méret tovább nőtt, és a flották most már három alapvető típusú nukleáris meghajtású tengeralattjáróból álltak.
+                         Egy jelentős innováció a svéd fejlesztésű levegőfüggetlen meghajtású tengeralattjáró.
+             </p>
+         </div>
+        
+         <div class="col-12 w-100 ">
+            <img src="Unterseeboot.jpg" alt="Unterseeboot" class="w-100 img-fluid ">
+            <p>Svéd levegőfüggetlen meghajtású tengeralattjáró</p>
+        </div>
+   
+        <form action="javascript:hir()">
+          <fieldset style="width: fit-content;">
+            <legend>Hírlevelünk</legend>
+            <input type="email" name="data" id="mail_input" placeholder="email" required><br>
+            <input type="text" name="data" id="name_input" placeholder="név" required><br>
+            <input type="checkbox" name="data" id="aszf" checked>ászf<br>
+            <input type="checkbox" name="data" id="hir_level">hírlevél<br>
+            <input type="submit" value="OK">
+          </fieldset>
+        </form>
+      
+        <script>
+          function hir() {
+            if (aszf.checked) {
+              localStorage.setItem("email", mail_input.value);
+              localStorage.setItem("name", name_input.value);
+              if (hir_level.checked) {
+                localStorage.setItem("hírlevél", "igen");
+              } else {
+                localStorage.setItem("hírlevél", "nem");
+              }
+            } else {
+              alert("El kell fogadni az ÁSZF-et!");
+            }
+          }
+        </script>
+
+    <footer>
+      <hr>
+      <p>A weboldal oktatási célból jött létre és a Kandó Kálmán Informatikai Technikum tulajdona <br> © Copyright </p>
+    </footer>
+  </div>
+</body>
+</html>

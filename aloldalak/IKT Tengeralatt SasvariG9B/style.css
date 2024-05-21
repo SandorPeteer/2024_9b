@@ -1,0 +1,81 @@
+body{
+    background-image: url(hatter2.jpg) ;
+    background-repeat:repeat-y ;
+}
+.container{
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.55);
+    margin-top: 15px;
+    max-width: auto;
+    max-height: auto;
+}
+img{
+    max-width: 750px;
+    max-height: 450px;
+    margin: auto;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: aqua;
+    background-color: darkgray;
+   border:  1px solid black;
+   margin-bottom: 4px;
+   margin: 3px;
+   padding: 1px;
+}
+
+#navg{
+    background-color:rgba(255, 255, 255, 0.55);
+    border: 1px solid black;
+    max-width: 650px;
+    max-height: 400px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+    margin-bottom: 65px;
+    transition: 1s;
+    
+}
+#fooldal {
+display: block;
+float: left;
+margin-right: 10px;
+}
+
+.navh:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.navh{
+    display: block;
+    float: left;
+}
+p{
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+}
+tr{
+    border: 1px solid black;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+#jus{
+    text-align: justify;
+}
+fieldset{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 40px;
+}
+input, legend{
+    text-align: center;
+}
