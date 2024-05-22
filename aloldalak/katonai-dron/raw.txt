@@ -1,0 +1,13 @@
+A pilóta nélküli légi jármű közismert nevén drón, olyan légi jármű, aminek fedélzetén nincs emberi pilóta, személyzet és utas sem. A drónokat eredetileg a XX. században fejlesztették ki olyan katonai feladatokra, amelyek túlságosan unalmasak, piszkosak vagy veszélyesek voltak az emberek számára, és a XXI. századra a legtöbb hadsereg alapvető részévé vált. Az irányítási technológiák fejlődésével és a költségek csökkenésével a felhasználásuk számos nem katonai célra is kiterjedt. Ezek közé tartozik a légi fényképezés, videófelvétel, a területlefedés, a precíziós mezőgazdaság, az erdőtüzek, folyók és a környezet megfigyelése, a rendfenntartás és a felügyelés, a szórakoztatás és a drónversenyzés.
+
+(DeepL translator)
+
+MQ-9 Predator
+
+Az MQ-9 Predator egy nagy hatótávolságú, pilóta nélküli légi jármű, amelyet elsősorban katonai célokra használnak. Ezt a drónt felderítésre és támadó műveletekre tervezték, és képes hosszú időn keresztül a levegőben maradni. Felszereltsége magában foglalja a fejlett szenzorokat és kamerarendszereket, amelyek lehetővé teszik a részletes adatgyűjtést és célpontok pontos felderítését nagy távolságból. Az MQ-9 Predator különösen hasznos nagy kiterjedésű területek megfigyelésére és a célpontok pontos azonosítására, ami kulcsfontosságú a modern katonai műveletekben.
+
+Black Hornet
+
+A Black Hornet egy miniatűr, helikopter formájú felderítő drón, amely kompakt méretével és könnyű hordozhatóságával tűnik ki. Ezt a drónt elsősorban rövid távú felderítésre használják, különösen városi vagy zárt terepen. A Black Hornet lehetővé teszi a katonák számára, hogy gyorsan és diszkréten gyűjtsenek információkat a környező területről anélkül, hogy közvetlen veszélybe kerülnének. Kiváló eszköz a veszélyes helyszínek előzetes felmérésére, és értékes segítséget nyújt a taktikai döntéshozatalban.
+
+(OpenAI)
