@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tartalom {
+  width: 1290px;
+  float: right;
+  background-color: black;
+  color: white;
+  
+  padding: 40px;
+}
+
+h2 {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  
+}
+
+#navsav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+ul{
+  padding: 0;
+}
+li {
+  color: white;
+  padding: 8px 16px;
+}
+
+#fonav {
+  background-color: lightskyblue;
+  height: 40px;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+#villamoskep {
+  width: 400px;
+  float: right;
+  margin: 20px;
+}
+
+#metrokep {
+  width: 250px;
+  margin: 20px;
+}
+#metrokep2{
+  width: 400px;
+  margin: 20px;
+}
+form {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  width: 400px;
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#wiki {
+  text-decoration: none;
+  color: white;
+}
+
+#uj {
+  width: 300px;
+  padding: 0;
+}
+
+#regi {
+  width: 300px;
+  padding: 0;
+}

@@ -1,0 +1,53 @@
+A vonatok
+A vasúti közlekedésben a "vonat" kifejezés egy vagy több vasúti jármű olyan összeállítását jelenti, amely alkalmas a vasúti pályán történő közlekedésre, legyen az személy- vagy teherszállítás céljából.
+A személyszállító vonatok
+A személyszállító vonatok az utasok szállítására szolgálnak a vasútállomások között. Ezek közé tartoznak a nagytávolságú vonatok, amelyek akár több országot is összeköthetnek. Ezek a vonatok gyakran rendelkeznek étkezőkocsival, és lehetőség van hozzájuk fekvőhelyes és hálókocsikat is csatlakoztatni. A nagysebességű vonatok általában nem tartalmaznak hálókocsikat, de sebességükkel versenyképes alternatívát nyújtanak a repülőgépekkel szemben.
+A teherszállító vonatok 
+A teherszállító vonatok esetében a vasúti szállítás bizonyos körülmények között gazdaságosabb és energiatakarékosabb lehet, mint a közúti szállítás. Bár a személyszállítással szemben általában nyereséges üzletág, a nagy tömegű áruk nagy távolságra való szállításában a vasút gazdaságosabb megoldást nyújthat. A különféle teheráruk szállításához sokféle teherkocsi kifejlesztésére volt szükség a vasúti közlekedés hatékonyságának növelése érdekében.
+Érdekességek
+1865-ben, az Amerikai Egyesült Államok elnökének, Abraham Lincolnnek a meggyilkolása után tiszteletből a holttestét vonattal szállították vissza szülővárosába. Az út során a vonat több mint 180 városon keresztülhaladt.
+Az Ausztráliában található vasúti pálya, mely a világon a leghosszabb egyenes szakasszal büszkélkedhet, 478 kilométeren keresztül fut egyenesen, kanyarok nélkül, ugyanabba az irányba.
+Top 5 leggyorsabb vonat
+JR-Maglev MLX01, 581 km/óra
+TGV V150, 574,8 km/óra
+JR-Maglev ML500, 517 kilométer/óra
+TGV Atlantique, 515,3 km/óra
+Transrapid 08, 501,5 km/óra
+
+A villamosok
+A villamos, vagy más néven közúti villamos vasút, egy elektromossággal működő jármű, mely az úttestbe épített, de vasúti pályaként nem jelölt sínpályán közlekedik. Ez a közlekedési eszköz elődjeivel, mint például a lóvasúttal és a gőzvontatású városi vasúttal együtt, a közúti vasutak kategóriájába tartozik, melyek a 20. század közepére váltak dominánssá, kiszorítva elődeiket.
+A városokon belüli közforgalmú közlekedés fejlődése a 19. század közepére tehető. Ekkorra már olyan nagy területű és lakosságú városok léteztek, ahol szükségessé vált egy hatékony közlekedési rendszer kiépítése, és a technológia is elérhetővé vált annak megvalósításához.
+Az első utcai gőzvontatású vasút New Yorkban épült 1832-ben, azonban ez nem aratott nagy sikert. Pesten az első lóvasút 1866. július 30-án indult útjára. Érdekesség, hogy az útvonal nagy része a mai napig a város egyik fő közlekedési útvonala, a Váci út mentén halad. Az első lóvasútot gróf Károlyi Sándor alapította, és a Pesti Közúti Vaspálya Társaság (PKVT) üzemeltette. Az egykori újpesti lóvasút állomás épülete ma is áll, és bár már nem lóvasútként működik, a neve még mindig az Újpest-Városkapu.
+1879-ben egy berlini kiállításon Werner Siemens bemutatta az első olyan villanyhajtású vasutat, mely az áramot nem akkumulátorból, hanem áramszedő segítségével egy erre a célra épített vezetékből kapta. Ez a találmány adott lendületet a közúti vasutak továbbfejlesztésének.
+A "villamos" elnevezés a korábbi városi, utcai vasutak, mint például a lóvasút megkülönböztetésére szolgál, utalva arra, hogy ezek a közlekedési eszközök nem állati vagy gőzhajtással, hanem elektromos energiával, azaz "villamos" energia hajtják.
+Villamos fajták
+Hagyományos felépítésű járművek
+Az első csuklós villamosok
+Jacobs-forgóvázas csuklósok
+Rövidcsuklós kocsik
+Többcsuklós villamosok
+Bővebben:
+Hagyományos felépítésű járművek
+Bár a kéttengelyes motor- és pótkocsik korszaka gyakorlatilag lejárt, az évtizedekkel ezelőtt kialakult szerelvényszerkezet még mindig sok helyen domináns. A cseh ČKD vállalat még a kilencvenes években is gyártott szóló motorkocsikat, és a Tatra villamosok még ma is számos városban közlekednek
+Ezekben a szerelvényekben általában egy vagy két motorkocsi található, néha ritkábban 3-4 is. Ha több kocsi van, akkor fontos a távvezérlés, hogy minden motor aktívan részt vegyen a hajtásban. A pótkocsi lehet a szerelvény hátsó vagy középső részén, sőt, vannak olyan típusok, ahol vezérlőpótkocsit is használnak, ami a szerelvény elején halad, és bár nem dolgozik, de vezérli a motorkocsit vagy motorkocsikat.
+Az első csuklós villamosok
+Az első villamosok után rövid idővel megjelentek az első csuklós villamosok is. Az egyszerűbb típusnál két kocsit kapcsoltak össze egy átjáróval (ezeket Magyarországon is használták). A következő lépésben megjelentek a "két szoba és egy fürdőszoba" jellegű villamosok, ahol a két kocsi közé egy szekrény került, ami a kocsiszekrényekre támaszkodott. Bár ezt a konstrukciót sok országban kipróbálták, kevés sikerrel, mivel rossz futástulajdonságokkal rendelkeztek. Magyarországon 1961 és 1978 között a Fővárosi Villamosvasút kelenföldi főműhelye, majd a Debreceni Közlekedési Vállalat is gyártott ilyen "házi csuklós" villamosokat. Budapesten, Szegeden és Miskolcon már kivonták őket a forgalomból, Debrecenben pedig utoljára 2014-ben közlekedtek.
+Jacobs-forgóvázas csuklósok
+Az 1920-as években a villamosoknál megjelentek az első csuklós kocsik, melyek forgóvázai a csuklókkal egybeépítve helyezkedtek el. Ez a konstrukció stabilabb, jobban fut, és ívben stabilabban viselkedik, mint az egymás mögé kötött motorkocsik. Azonban fő hátránya csak később, a kilencvenes években derült ki: bonyolultan lehet alacsony padlós szerkezetet kialakítani belőle.
+Budapesten ilyen típusú a Ganz CSMG–2 és TW 6000 motorkocsi (mindkettő nyolctengelyes), Debrecenben pedig a Ganz által gyártott hattengelyes KCSV–6, míg Miskolcon a ČKD által gyártott nyolctengelyes KT8D5 kocsik tartoznak ebbe a kategóriába. Miskolcon emellett található egy "bécsi villamos" is.
+Rövidcsuklós kocsik
+A magyar "rövidcsuklós" kifejezés valószínűleg Németh Zoltán Ádám által lett alkotva, a német "Kurzgelenkwagen" tükörfordításaként. Ezek a kocsik kétrészesek, azaz két merev kocsirészt egy csukló köt össze. A két forgóváz a két merev kocsirész alatt helyezkedik el. E kocsik egyenesfutása és ívekben való helyes haladása különféle mechanikus berendezések segítségével lehetséges. Az előnye a rendkívül kedvező űrszelvény-kihasználás, és hogy megoldható a 100%-os alacsony padlós villamosok kialakítása ezen koncepció alapján. Németh Zoltán Ádám írt hosszabb magyar nyelvű ismertetőt erről a járműtípusról.
+Többcsuklós villamosok
+Az ilyen jellegű járművek szerkezeti mintáját a hosszú évtizedek óta alkalmazott "két-szoba és fürdőszoba" jellegű csuklós villamosok inspirálták, bár elődeik csuklókialakítása eltérő volt. A többcsuklós villamosoknál a rövid kerekes és a hosszú, kerék nélküli kocsirészek váltogatják egymást. Ezekben a kocsikban nincs hagyományos forgóváz, helyettük egy futóváz van beépítve, mely felveszi a pálya függőleges egyenetlenségét. A kerekek lehetnek egyedi tengelyesek (például Sirio, Combino, Citadis), vagy hagyományos tengelyes kialakításúak (például Cityrunner, Pesa, Škoda). Ez a rendszer több helyen bevált, mivel lehetővé teszi a 100%-os alacsony padlós kialakítást, miközben a dobozok arányaiban kevésbé nyúlnak be az utastérbe.
+
+A metró
+A metró a nagyvárosokban elterjedt tömegközlekedési eszköz, melynek célja a nagy kapacitású tömegszállítás biztosítása. Nemzetközi értelemben véve a metró egy olyan vasúti rendszer, mely a városokat és azok környékét szolgálja ki, általában külön szinten haladva, a föld alatt vagy felette. Bár a magyar nyelvterületen az 1950-es évek óta a földalatti vasút szinonimájaként használjuk a kifejezést, ez erőteljes fogalomszűkítést jelent az internacionális értelemben.
+
+A metró rendszerint a leggyorsabb közlekedési mód a nagyvárosokban, néha gyorsvasútnak is nevezik. Az angol nyelvterületen elterjedt továbbá a "subway", "tube", vagy "underground" kifejezés is.
+Eredete
+Az első "metró" a Londoni Metropolitan Vasút volt, melyet 1863-ban indítottak el. Európában más nagyvárosok is követték a londoni példát, és "Metropolitan"-nak vagy "metro"-nak nevezték el rendszereiket.
+
+Előnye és hátránya
+A metró előnyei közé tartozik, hogy gyors és kevésbé szennyezi a környezetet, valamint sok embert tud elszállítani anélkül, hogy sok helyet foglalna a felszínen. Azonban hátrányai közé sorolható, hogy zajos, vészhelyzet esetén nehezen lehet elmenekülni, és a peron szélén állva a metró szívása veszélyes lehet.
+Biztonság és védelem
+A gyorsvasút viszont jó biztonsági mutatókkal rendelkezik, mivel szigorú biztonsági előírások vonatkoznak rá, és a pályákat úgy tervezik, hogy minimalizálják a balesetek kockázatát. Bár a föld alatti rendszerekre tűz nagyobb veszélyt jelenthet, az evakuációt általában gondosan tervezik és kialakítják az ilyen esetekre való felkészülés érdekében.
