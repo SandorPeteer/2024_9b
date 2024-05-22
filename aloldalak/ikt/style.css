@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poetsen+One&display=swap');
+
+
+.font1{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+.font2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    background-color: #1a1b1f;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+}
+
+.gray{
+    background-color: #313338;
+}
+
+.gray2 {
+    background-color: rgb(14, 14, 17);
+}
+
+.gray3{
+    background: #1f1f1f;
+}
+.text-first {
+    color: #00c3ff;
+}
+
+#navbar-navigation{
+    float: right;
+    text-align: right;
+    height: 50px;
+    padding: 10px;
+}
+
+#navbar-maintext{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#table-main{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#footer_aszf{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    
+}
+
+#copyright_footer{
+    color: white;
+    text-transform: none;
+}
