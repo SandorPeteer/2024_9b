@@ -100,7 +100,7 @@ li{
     font-size: smaller;
 }
 footer{
-    background-image: url(project-bg.jpg);
+    background-color: rgba(69, 40, 122, 0.26);
     color: whitesmoke;
     margin-top: 10px ;
 }
