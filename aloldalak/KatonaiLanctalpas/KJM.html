@@ -122,6 +122,40 @@
         </section>
     </div>
 
+    <form action="javascript:hirlevel()">
+        <fieldset>
+            <input type="text" name="data" id="nev_input" class="form-control" placeholder="Név" required>
+            <br>
+            <input type="email" name="data" id="email_input" class="form-control" placeholder="E-Mail cím" required>
+            <br>
+            <div class="form-check">
+                <input type="checkbox" name="data" id="aszf" checked> Elfogadom az <a href="aszf.txt" target="_blank" class="feherlink">Általános Szerződési Feltételeket</a>
+                <br>
+                <input type="checkbox" name="data" id="level" checked> Kérem a hírlevelet
+                <br>
+                <input type="submit" value="Beküldés">
+            </div>
+        </fieldset>
+        <script>
+          function hirlevel(){
+              if (aszf.checked){
+                  localStorage.setItem("nev",nev_input.value)
+                  localStorage.setItem("email",email_input.value)
+                  if (level.checked){
+                      localStorage.setItem("hirlevel","ker")
+                      alert("Köszönjük, hogy felíratkozott a hírlevelünkre!")
+                  }
+                  else{
+                      localStorage.setItem("hirlevel","nem ker")
+                      alert("Elnézést, de ha nem kéri a hírlevelet, akkor mégis minek töltötte ezt ki?")
+                  }
+              }
+              else{
+                  alert("Ha nem fogadja el az ÁSZF-et, nem tud felíratkozni a hírlevélre!")
+              }
+          }
+      </script>
+
     <footer class="bg-dark text-light text-center py-3">
         <p>© 2024 BTP contact: +36702770339
             Images from: WikiPedia 
