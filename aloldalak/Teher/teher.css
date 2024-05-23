@@ -1,0 +1,28 @@
+body{
+    background-color: #2a2424;
+    color: whitesmoke;
+}
+#main{
+    border: #ffffff solid;
+    margin: auto;
+    height: 757px;
+    width: 1205px;
+    margin-left: 360px;
+    text-align: justify;
+    padding: 5px;
+    text-indent: 20px;
+}
+#sbar{
+    width: 360px;
+    height: 700px;
+}
+#foold{
+    margin-left: 95px;
+}
+#verkami{
+    height: 125px;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
