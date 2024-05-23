@@ -1,0 +1,138 @@
+body{
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    display: block;
+
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: overline underline;
+    color: black;
+}
+h1{
+    text-decoration: none;
+    margin: 0px;
+    font-size: 35px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    text-align: center;
+    font-size: 16px;
+    margin: 1px;
+}
+
+#kirov,#bismark,#duke{
+    padding: 6px;
+    width: 1000px;
+    margin: auto;
+}
+#bismark,#duke{
+    display: none;
+}
+
+#szoveg{
+    width: fit-content;
+    background-color: rgba(0, 162, 255, 0.75);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(203, 230, 247);
+}
+
+#balimg{
+    float: left;
+    border: 2px double darkblue;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 3px;
+    background-color: rgba(0, 162, 200, 0.69);
+}
+#jobbimg{
+    float: right;
+    border: 2px double darkblue;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 3px;
+    background-color: rgba(0, 162, 200, 0.69);
+}
+img{
+    margin: 1px;
+    border-radius: 10px;
+}
+
+#jobb{
+    float: right;
+}
+#jobbszoveg{
+    float: right;
+    display: contents;
+}
+#bal{
+    float: left;
+}
+#balszoveg{
+    float: left;
+    display: contents;
+}
+#normal{
+    clear: both;
+}
+
+hr{
+    height: 5px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+}
+#cim{
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(0, 162, 200, 1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#NAV{
+    display: grid;
+    justify-content: center;
+}
+#gomb{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 50px;
+}
+#gomb:hover{
+    transition: 0.75s;
+    transform: scale(1.11);
+    background-color: rgba(0, 162, 200, 1);
+    cursor: pointer;
+}
+a:any-link{
+    color: rgb(68, 27, 255);
+    text-decoration:double underline;
+}
+
+p{
+    text-align: justify;
+}
