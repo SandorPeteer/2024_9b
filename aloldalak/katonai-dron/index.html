@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+        #nev_input{
+            width: 500px;
+            background-color: rgba(69, 0, 134, 0.356);
+            color: rgb(255, 255, 255); 
+            border: 3px solid rgba(217, 119, 241, 0.521);
+            border-radius: 4%;
+            margin: auto;
+        }
+        #nev_input::placeholder{
+            color: whitesmoke;
+        }
+        #email_input{
+            width: 500px;
+            background-color: rgba(69, 0, 134, 0.356);
+            color: rgb(255, 255, 255);
+            border: 3px solid rgba(217, 119, 241, 0.521);
+            border-radius: 4%;
+            margin: auto;
+        }
+        #email_input::placeholder{
+            color: whitesmoke;
+        }
     </style>
 </head>
 <body>
@@ -45,7 +67,7 @@
             <a href="https://upload.wikimedia.org/wikipedia/commons/6/6b/Black_Hornet_Nano_-_Mission_Aigle_%28cropped%29.jpg" target="_blank"><img src="IMG/black-hornet.jpg" alt="Black Hornet drón" title="forrás: Wikimedia" class="kep-jobb img-fluid"></a>
             <p style="font-style: italic; text-align: center; font-size: medium;">Black Hornet</p>
             <br>
-            <table class="table" style="border: 3px solid rgba(217, 119, 241, 0.521);">
+            <table class="table  table-responsive" style="border: 3px solid rgba(217, 119, 241, 0.521);">
                 <thead>
                 <tr>
                 <th class="bungee-regular" style="background-color: rgba(69, 40, 122, 0.26);
@@ -94,7 +116,7 @@
             <span>
                 <p style="font-style: italic; text-align: center; font-size: medium;">MQ-9 Predator</p>
                 <br>
-                <table class="table" style="border: 3px solid rgba(217, 119, 241, 0.521);">
+                <table class="table table-responsive" style="border: 3px solid rgba(217, 119, 241, 0.521);">
                     <thead>
                       <tr>
                         <th class="bungee-regular" style="background-color: rgba(69, 40, 122, 0.26);
@@ -137,10 +159,9 @@
             <h2 class="bungee-regular" style="margin-left: 15px;">Hírlevelünk</h2>
             <br>
             <fieldset>
-                <label for="nev_input">Név:</label>
-                <input type="text" name="data" id="nev_input" class="form-control" placeholder="Név" required style="width: 500px; background-color: rgba(69, 0, 134, 0.356); color: rgb(255, 255, 255); border: 3px solid rgba(217, 119, 241, 0.521); border-radius: 4%; margin: auto;">
+                <input type="text" name="data" id="nev_input" class="form-control" placeholder="Név" required>
                 <br>
-                <input type="email" name="data" id="email_input" class="form-control" placeholder="E-mail cím" required style="width: 500px; background-color: rgba(69, 0, 134, 0.356); color: rgb(255, 255, 255); border: 3px solid rgba(217, 119, 241, 0.521); border-radius: 4%; margin: auto;">
+                <input type="email" name="data" id="email_input" class="form-control" placeholder="E-mail cím" required>
                 <br>
                 <div class="form-check">
                     <input type="checkbox" name="data" id="aszf" checked style="width: 25px; height: 20px;"> <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: larger;">ÁSZF</p>
