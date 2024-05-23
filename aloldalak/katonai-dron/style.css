@@ -99,3 +99,8 @@ li{
     text-align: left;
     font-size: smaller;
 }
+footer{
+    background-image: url(project-bg.jpg);
+    color: whitesmoke;
+    
+}
