@@ -28,15 +28,12 @@ h2{
 #bevez0{
     display: block;
     float: inline-start;
-    
     font-size: x-large;
     text-align: justify;
 }
 #bevez2{
     display: block;
     float: inline-end;
-    
-    
     text-align: justify;
 }
 .kep-bal{
@@ -79,7 +76,6 @@ span{
 #bl-horn-bal{
     display: block;
     float: inline-start;
-    
     font-size: x-large;
     text-align: justify;
 }
