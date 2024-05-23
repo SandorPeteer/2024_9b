@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    display: block;
+    margin: auto;
+}
+h1, h2{
+    color: black;
+    font-style: italic
+}
+.div{
+    background-color: cadetblue;
+    width: 80%;
+    height: 800px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+img{
+    width: 500px;
+    float: right;
+    padding: 15px;
+}
+footer{
+    display: block;
+    float: inline-end;
+}
+a{
+    color: white;
+}
