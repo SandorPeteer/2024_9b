@@ -2,7 +2,7 @@ body{
     background-image: url(project-bg.jpg);
     background-repeat: repeat-y;
     background-size: 100%;
-    
+    color: aliceblue;
 }
 #main{
     background-color: rgba(101, 26, 241, 0.219);
