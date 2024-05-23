@@ -104,11 +104,14 @@ footer{
     color: whitesmoke;
     margin-top: 10px ;
 }
+table{
+    border: 3px solid rgba(217, 119, 241, 0.521);
+}
 th{
-    background-color: ;
-    color: ;
+    background-color: rgba(69, 40, 122, 0.26);
+    color: whitesmoke;
 }
 tf{
-    background-color: ;
-    color: ;
+    background-color: ;rgba(101, 26, 241, 0.219);
+    color: whitesmoke;
 }
