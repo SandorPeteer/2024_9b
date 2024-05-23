@@ -118,7 +118,7 @@ td{
 }
 ::placeholder {
     color: whitesmoke;
-    
+    opacity: 1;
   }
 p{
     font-size: medium;
