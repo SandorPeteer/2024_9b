@@ -108,6 +108,8 @@ table{
     border: 3px solid rgba(217, 119, 241, 0.521);
     text-align: center;
     vertical-align: auto;
+    margin: auto;
+    width: 320px;
 }
 th{
     background-color: rgba(69, 40, 122, 0.26);
