@@ -116,9 +116,10 @@ td{
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-{
+::placeholder {
     color: whitesmoke;
-}
+    
+  }
 p{
     font-size: medium;
 }
