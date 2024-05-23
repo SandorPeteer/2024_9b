@@ -2,6 +2,7 @@ body{
     background-image: url(
 982e78701a1023f04f2f500039fd4f6f.jpeg
 );
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(41, 98, 202);
 }
@@ -10,6 +11,7 @@ p{
     font-family: Verdana;
     color: white;
     padding: 10px;
+    text-align: justify;
 }
 h2{
     text-align: center;
@@ -46,6 +48,7 @@ img{
     width: 250px;
     display: block;
     margin: auto;
+    
 }
 .footvonal{
     width: 80%;
