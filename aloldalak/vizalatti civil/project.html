@@ -101,28 +101,27 @@
         <hr>
         <section>
             <h2 id="fejlemeny">Ha szeretne további fejleményt kapni a tengeralattjáró-ról</h2>
-                <form action="javascript:hir()">
-                    <fieldset style="width: fit-content;">
-                        <input type="email" name="data" id="mail_input" placeholder="email" required><br>
-                        <input type="text" name="data" id="mail_input" placeholder="név" required><br>
-                        <input type="checkbox" name="data" id="mail_input" placeholder="hir_level" required>Hírlevél<br>
-                        <input type="submit" name="data" value="OK">
-                    </fieldset>
-                </form>
-                <script>
-                    function hir() {
-                        if (beleegyezek.checked) {
-                            localStorage.setItem("email",mail_input.value)
-                            localStorage.setItem("name", name_input.value)
-                            if (hir_level.checked){
-                                localStorage.setItem("hirlevel","ker")
-                                alert("Mostantól értesülni fog a tengeralattjárókról")
-                            }
-                        }
-                        else{
-                            localStorage.setItem("hirlevél","nem")
-                        }
+            <form action="javascript:hir()">
+                <fieldset style="width: fit-content;">
+                    <input type="email" name="data" id="mail_input" placeholder="email" required><br>
+                    <input type="text" name="data" id="name_input" placeholder="név" required><br>
+                    <input type="checkbox" name="data" id="hir_level" placeholder="hir_level">Hírlevél<br>
+                    
+                    <input type="submit" name="data" value="OK">
+                </fieldset>
+            </form>
+            <script>
+                function hir() {
+                    if (hir_level.checked) {
+                        localStorage.setItem("email",mail_input.value)
+                        localStorage.setItem("name", name_input.value)
+                        localStorage.setItem("hirlevel","ker")
+                        alert("Mostantól értesülni fog a tengeralattjárókról")
                     }
+                    else{
+                        localStorage.setItem("hirlevél","nem")
+                    }
+                }
                 </script>
         </section>
         <footer>
