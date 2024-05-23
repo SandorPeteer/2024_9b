@@ -14,7 +14,7 @@
 </head>
   
 <body>
-    <div class="topnav">
+    <div class="topnav sticky-top">
         <a href="../../index.html">Főoldal</a>
         <a href="#Robinson">Robinson R44</a>
         <a href="#Airbus">Airbus H125</a>
@@ -199,6 +199,8 @@
             localStorage.setItem("name",name_input.value)
         if (hir_level.checked) {
             localStorage.setItem("hirlevel","igen")
+            alert("Köszönjük hogy feliratkozott!")
+
         }
         else {
             localStorage.setItem("hirlevel","nem")
