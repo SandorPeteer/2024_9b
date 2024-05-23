@@ -1,0 +1,26 @@
+body{
+    background-color: green;
+    color: white;
+    font-family: Verdana;
+}
+div{
+    background-color:rgba(72, 255, 0, 0.562);
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#jobb{
+    float: right;
+    display: block;
+    width: 199px;
+}
+#kozep{
+    text-align: center;
+
+}
+#szin{
+    color: blue;
+    background-color: black;
+}

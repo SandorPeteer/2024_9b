@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobai Dániel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="kozep">Magyar katonai repülők</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tablazat">Táblázat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hirlevel">Hírlevél</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fel">Felsorolás</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <p>A Magyar Légierő feladata Magyarország légterének védelme és ellenőrzése harci repülőgépekkel, légvédelmi rakétákkal és radarrendszerekkel. Emellett biztosítják a Magyar Honvédség szárazföldi egységeit</p>
+
+<div>
+    <h2 id="tablazat" class="mt-5">Top 3 Repülőgép</h2>
+    <table class="table table-striped">
+            <tr>
+                <th></th>
+                <th>Repülőgép</th>
+                <th>Típus</th>
+                <th>Származás</th>
+                <th>Leírás</th>
+                <th id="#">Képek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>JAS-39 Gripen</td>
+                <td>Többfunkciós vadászrepülőgép</td>
+                <td>Svédország</td>
+                <td> A JAS-39 Gripen modern, negyedik generációs vadászgép, amelyet a légvédelem, légi fölény megszerzése, és földi célok elleni támadások érdekében használnak. Kiváló manőverezőképességének és fejlett avionikájának köszönhetően hatékonyan alkalmazható különböző harci helyzetekben.</td>
+                <td><img src="./grippen.jpg" alt="Jas 39 Grippen" title="Jas 39 Grippen" id="jobb"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Antonov An-26</td>
+                <td>Kétmotoros katonai szállító repülőgép</td>
+                <td>Szovjetunió</td>
+                <td>Az An-26 a Magyar Honvédség szállító kapacitásának gerincét képezi. Kiválóan alkalmas csapatok, felszerelések és különféle áruk szállítására, valamint humanitárius és katasztrófaelhárítási feladatokra is.</td>
+                <td> <img src="./Antonov_An-26.jpg" alt="Antonov An-26" title="Antonov An-26" id="jobb"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>C-17 Globemaster III</td>
+                <td>Nagy hatótávolságú, nehéz katonai szállító repülőgép</td>
+                <td>Egyesült Államok</td>
+                <td> Bár Magyarország nem rendelkezik saját C-17 repülőgépekkel, a Magyar Honvédség aktív résztvevője a NATO Stratotlift programjának, amely biztosítja a C-17 Globemaster III repülőgép  ek hozzáférését. Ezek a repülőgépek kulcsfontosságúak a nagyméretű felszerelések és csapatok gyors és hatékony szállításában nagy távolságokra, beleértve a nemzetközi küldetéseket is.</td>
+                <td><img src="./1200px-C-17_Boeing_Globemaster_III.jpg" alt="C-17" title="C-17" id="jobb"></td>
+            </tr>
+    </table>
+
+        
+        <p>Ezek a repülőgépek kiemelkedő fontossággal bírnak a Magyar Honvédség számára, mivel biztosítják a hatékony légi védelmet és a különböző katonai műveletek támogatását.</p>
+    </div>  
+
+    <h2 class="mt-5">Főbb Feladatok</h2>
+    <ol>
+        <li>Légvédelem és légtér ellenőrzése</li>
+        <li>Szárazföldi egységek légi támogatása</li>
+        <li>Csapatok és felszerelések szállítása</li>
+    </ol>
+    
+    
+
+<footer class="mt-5">
+    <P>Képek forrásai:</P>
+    <p> <a href="https://hu.m.wikipedia.org/wiki/F%C3%A1jl:Hungarian_Air_Force_Saab_JAS-39C_Gripen_Lofting-1.jpg">Grippen:https://hu.m.wikipedia.org/wiki/F%C3%A1jl:Hungarian_Air_Force_Saab_JAS-39C_Gripen_Lofting-1.jpg</a></p>
+    <p> <a href="https://hu.wikipedia.org/wiki/An%E2%80%9326">AN-26:https://hu.wikipedia.org/wiki/An%E2%80%9326</a></p>
+    <p> <a href="https://en.wikipedia.org/wiki/File:C-17_Boeing_Globemaster_III.jpg">C-17:https://en.wikipedia.org/wiki/File:C-17_Boeing_Globemaster_III.jpg</a></p>
+
+
+    <form action="javascript:hír()" id="hirlevel">
+        <fieldset style="width: fit-content;">
+            <input type="email" name="data" id="mail_input" placeholder="email" required>
+            <br>
+            <input type="text" name="data" id="name_input" placeholder="név" required>
+            <br>
+            <input type="checkbox" name="data" id="aszf" checked>ÁSZF
+            <br>
+            <input type="checkbox" name="data" id="hírlevel" checked>Hírlevél
+            <br>
+            <input type="submit" value="Ok">
+            
+        </fieldset>
+    </form>
+    <script>
+        function hír() {
+            if (aszf.checked){
+                localStorage.setItem("email",mail_input.value)
+                localStorage.setItem("name",name_input.value)
+                if (hirlevel_checked){
+                    localStorage.setItem("hírlevél" ,"igen")
+                }
+                else{
+                    localStorage.setItem("hírlevél" ,"nem")
+                }
+            }
+            else{
+            alert("Ell kellene fogadni az ÁSZF-et!")
+        }
+        }
+    </script>
+
+
+
+</footer>
+<button id="szin"><a href="../..-/index.html">Vissza a főoldalra!</a></button>
+</body>
+</html>
