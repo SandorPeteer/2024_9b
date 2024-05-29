@@ -121,10 +121,11 @@ hr{
     background-size:cover;
     background-position: center;
     height: 50px;
+    border: 2px black solid;
 }
 #gomb:hover{
     transition: 0.75s;
-    transform: scale(1.11);
+    transform: scale(1.10);
     background-color: rgb(0, 126, 155);
     cursor: pointer;
 }
