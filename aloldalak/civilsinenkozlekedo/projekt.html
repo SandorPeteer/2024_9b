@@ -11,48 +11,58 @@
 </head>
 
 <body>
-    <nav>
-        <div>
-            <ul id="navsav">
-                <li><a href="#fo" id="fonav">Főoldal</a></li>
-                <li><a href="#vonat"><i>Vonatok</i></a></li>
-                <li><a href="#villamos"><i>Villamos</i></a></li>
-                <li><a href="#metro"><i>Metró</i></a></li>
-                <li><a href="#hir"><i>Hírlevél</i></a></li>
-            </ul>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vonat">Vonatok</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#villamos">Villamos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#metro">Metró</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hir">Hírlevél</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div id="tartalom">
 
-        <section id="fo">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <h1 class="text-info">Civíl sínen közlekedő járművek</h1>
-                    <hr>
-                    <div class="carousel-item active">
-                        <img src="vonatkepe.jpg" class="d-block w-60" alt="vonat" id="gordulo">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="villamos-budapest.jpg" class="d-block w-60" alt="villamos" id="gordulo">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="metro3.jpg" class="d-block w-100" alt="metro" id="gordulo">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-        <br>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
 
+                <hr>
+                <div class="carousel-item active">
+                    <img src="vonatkepe.jpg" class="d-block w-60" alt="vonat" id="gordulo">
+                </div>
+                <div class="carousel-item">
+                    <img src="villamos-budapest.jpg" class="d-block w-60" alt="villamos" id="gordulo">
+                </div>
+                <div class="carousel-item">
+                    <img src="metro3.jpg" class="d-block w-100" alt="metro" id="gordulo">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
+        <h1 class="text-info text-center">Civíl sínen közlekedő járművek</h1>
         <hr>
         <br>
         <section id="vonat">
@@ -66,7 +76,8 @@
                     <div class="col-6">
                         <h4>A személyszállító vonatok</h4>
                         <img src="vonatkep.jpg" alt="szemelyvonat" class="img-thumbnail" id="szemely">
-                        <p>A <strong>személyszállító</strong> vonatok az utasok szállítására szolgálnak a vasútállomások között. Ezek
+                        <p>A <strong>személyszállító</strong> vonatok az utasok szállítására szolgálnak a vasútállomások
+                            között. Ezek
                             közé tartoznak a nagytávolságú vonatok, amelyek akár több országot is összeköthetnek. Ezek a
                             vonatok gyakran rendelkeznek étkezőkocsival, és lehetőség van hozzájuk fekvőhelyes és
                             hálókocsikat is csatlakoztatni. A nagysebességű vonatok általában nem tartalmaznak
@@ -76,7 +87,8 @@
                     <div class="col-6">
                         <h4 class="text-end">A teherszállító vonatok</h4>
                         <img src="tehervonat.webp" alt="tehervonat" class="img-thumbnail">
-                        <p>A <strong>teherszállító</strong> vonatok esetében a vasúti szállítás bizonyos körülmények között gazdaságosabb
+                        <p>A <strong>teherszállító</strong> vonatok esetében a vasúti szállítás bizonyos körülmények
+                            között gazdaságosabb
                             és energiatakarékosabb lehet, mint a közúti szállítás. Bár a személyszállítással szemben
                             általában nyereséges üzletág, a nagy tömegű áruk nagy távolságra való szállításában a vasút
                             gazdaságosabb megoldást nyújthat. A különféle teheráruk szállításához sokféle teherkocsi
@@ -93,6 +105,7 @@
                     <td><img src="regivonat.jpg" alt="regivonat" id="regi"></td>
                     <td><img src="ujvonat.jpg" alt="ujvonat" id="uj"></td>
                 </tr>
+
             </table>
             <br>
             <ol>
@@ -111,6 +124,40 @@
             Az Ausztráliában található vasúti pálya, mely a világon a leghosszabb egyenes szakasszal büszkélkedhet,
             478 kilométeren keresztül fut egyenesen, kanyarok nélkül, ugyanabba az irányba.
             <br>
+            <br>
+            <table class="table-bordered w-75">
+                <h4>Külömbségek a két vonat között</h4>
+                <br>
+                <tr>
+                    <td class="text-center bg-info">
+                        Régi
+                    </td>
+                    <td class="text-center bg-info">
+                        Új
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li>Lassabbak voltak, gyakran csak 60-100 km/h sebességgel közlekedtek</li>
+
+                        <li>
+                            Egyszerűbb belső térrel, kevesebb kényelemmel rendelkeztek, mint például kemény ülések,
+                            hiányzó légkondicionálás
+                        </li>
+                        <li>Nagyobb zaj- és rezgésszint</li>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Nagy sebességű vonatok, amelyek akár 300 km/h vagy még nagyobb sebességgel is
+                                haladhatnak</li>
+                            <li>Ergonomikus ülések, légkondicionálás, Wi-Fi, USB-töltők és egyéb modern kényelmi
+                                szolgáltatások</li>
+                            <li> Fejlett biztonsági rendszerek, például automatikus vonatbefolyásolás, korszerű
+                                fékrendszerek és tűzvédelmi rendszerek.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
 
         </section>
         <br>
@@ -132,7 +179,28 @@
                 város egyik fő közlekedési útvonala, a Váci út mentén halad. Az első lóvasútot gróf Károlyi Sándor
                 alapította, és a Pesti Közúti Vaspálya Társaság (PKVT) üzemeltette. Az egykori újpesti lóvasút állomás
                 épülete ma is áll, és bár már nem lóvasútként működik, a neve még mindig az Újpest-Városkapu.</p>
-
+             <table class="table-bordered w-50 float-end" id="table2">
+                <tr>
+                    <th class="text-center bg-info">Régen</th>
+                    <th class="text-center bg-info">Most</th>
+                </tr>
+                <tr>
+                    <td><img src="regivillamos.jpg" alt="villamos" id="regi">
+                        <ul>
+                            <li> Mechanikus vezérlőrendszerek, analóg kijelzők.</li>
+                            <li>Alacsonyabb sebesség és teljesítmény</li>
+                            <li> Alapvető biztonsági rendszerek, manuális fékek</li>
+                        </ul>
+                    </td>
+                    <td><img src="ujvillamos.jpg" alt="villamos" id="uj">
+                        <ul>
+                            <li>Digitális vezérlőrendszerek, érintőképernyős kijelzők, GPS-alapú követés</li>
+                            <li>Gyorsabb gyorsulás, nagyobb maximális sebesség</li>
+                            <li>Fejlett biztonsági rendszerek, automatikus vészfékezés, modern fékrendszerek</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>   
             <p>1879-ben egy berlini kiállításon Werner Siemens bemutatta az első olyan villanyhajtású vasutat, mely az
                 áramot nem akkumulátorból, hanem áramszedő segítségével egy erre a célra épített vezetékből kapta. Ez a
                 találmány adott lendületet a közúti vasutak továbbfejlesztésének.</p>
@@ -140,30 +208,22 @@
             <p>A "villamos" elnevezés a korábbi városi, utcai vasutak, mint például a lóvasút megkülönböztetésére
                 szolgál, utalva arra, hogy ezek a közlekedési eszközök nem állati vagy gőzhajtással, hanem elektromos
                 energiával, azaz "villamos" energia hajtják.</p>
-                
-                <h3>Villamos fajták</h3>
-                <ul>
-                    <li>Hagyományos felépítésű járművek</li>
-                    <li>Az első csuklós villamosok</li>
-                    <li>Jacobs-forgóvázas csuklósok</li>
-                    <li>Rövidcsuklós kocsik</li>
-                    <li>Többcsuklós villamosok</li>
-                </ul>
-            <table class="table-bordered">
-                    <tr>
-                        <th class="text-center bg-info">Régen</th>
-                        <th class="text-center bg-info">Most</th>
-                    </tr>
-                    <tr>
-                        <td><img src="regivillamos.jpg" alt="villamos" id="regi"></td>
-                        <td><img src="ujvillamos.jpg" alt="villamos" id="uj"></td>
-                    </tr>
-                </table>
+
+
+            <h3>Villamos fajták</h3>
+            <ul>
+                <li>Hagyományos felépítésű járművek</li>
+                <li>Az első csuklós villamosok</li>
+                <li>Jacobs-forgóvázas csuklósok</li>
+                <li>Rövidcsuklós kocsik</li>
+                <li>Többcsuklós villamosok</li>
+            </ul>
+
         </section>
         <br>
         <section id="metro">
             <h2>A metró</h2>
-            <img src="metro2.jpg" alt="metro" id="metrokep" class="img-thumbnail float-start">
+            <img src="metro2.jpg" alt="metro" id="metrokep" class="img-thumbnail float-start w-50">
             <p>A metró a nagyvárosokban elterjedt tömegközlekedési eszköz, melynek célja a nagy kapacitású
                 tömegszállítás biztosítása.</p>
             <p>Nemzetközi értelemben véve a metró egy olyan vasúti rendszer, mely a városokat és azok környékét
@@ -180,19 +240,19 @@
                 rendszereiket.</p>
             <h4>Előnye és hátránya</h4>
             <p>A metró előnyei közé tartozik, hogy</p>
-                <ul>    
-                    <li>gyors</li>
-                    <li>kevésbé szennyezi a környezetet</li>
-                    <li>sok embert tud elszállítani anélkül, hogy sok helyet foglalna a felszínen.</li>
-                </ul>
-            
+            <ul>
+                <li>gyors</li>
+                <li>kevésbé szennyezi a környezetet</li>
+                <li>sok embert tud elszállítani anélkül, hogy sok helyet foglalna a felszínen.</li>
+            </ul>
+
             <p>
-                <p>Azonban hátrányai közé sorolható, hogy</p> 
-                <ul>
-                    <li>zajos</li>
-                    <li>vészhelyzet esetén nehezen lehet elmenekülni</li>
-                    <li>a peron szélén állva a metró szívása veszélyes lehet</li>
-                </ul>
+            <p>Azonban hátrányai közé sorolható, hogy</p>
+            <ul>
+                <li>zajos</li>
+                <li>vészhelyzet esetén nehezen lehet elmenekülni</li>
+                <li>a peron szélén állva a metró szívása veszélyes lehet</li>
+            </ul>
             </p>
             <h4>Biztonság és védelem</h4>
             <p>A gyorsvasút viszont jó biztonsági mutatókkal rendelkezik, mivel szigorú biztonsági előírások vonatkoznak
@@ -205,23 +265,28 @@
         <br>
         <hr>
         <section id="hir">
-
-            <form action="javascript:hir()" class="rounded">
-                <h5>Hírlevél nyilatkozat</h5>
-                <fieldset style="width: fit-content;">
-                    <label for="email">Email cím:</label>
-                    <input type="email" name="data" id="mail.input" placeholder="email" required><br>
-                    <label for="text">Név:</label>
-                    <input type="text" name="data" id="name.input" placeholder="név" required><br>
-                    <input type="checkbox" name="data" id="aszf" checked>Általános szerződési feltételek elfogadása<br>
-                    <input type="submit" value="OK">
+            <form action="javascript:hirlevel()">
+                <fieldset>
+                    <h3>Hírlevél feliratkozás</h3>
+                    <input type="text" name="data" id="nev_input" class="form-control" placeholder="Név" required>
+                    <br>
+                    <input type="email" name="data" id="email_input" class="form-control" placeholder="E-Mail cím"
+                        required>
+                    <br>
+                    <div class="form-check">
+                        <input type="checkbox" name="data" id="aszf" checked> Elfogadom az Általános Szerződési
+                        Feltételeket
+                        <br>
+                        <input type="checkbox" name="data" id="level" checked> Kérem a hírlevelet
+                        <br>
+                        <input type="submit" value="Beküldés">
+                    </div>
                 </fieldset>
-            </form>
         </section>
         <br>
         <footer class="bg-info">
             <div>
-                <p class="text-center">Kántor Alexa</p>
+                <p class="text-center">Készítette: Kántor Alexa</p>
                 <p class="text-center"><a href="email:kantora@kkszki.hu">kantora@kkszki.hu</a></p>
             </div>
         </footer>
@@ -230,13 +295,17 @@
     </div>
     <hr>
     <script>
-        function hir() {
+        function hirlevel() {
             if (aszf.checked) {
-                localStorage.setItem("email", mail_input.value)
-                localStorage.setItem("name", name_input.value)
+                localStorage.setItem("nev", nev_input.value)
+                localStorage.setItem("email", email_input.value)
+                if (level.checked) {
+                    localStorage.setItem("hirlevel", "ker")
+                    alert("Köszönjük, hogy felíratkozott a hírlevelünkre!")
+                }
             }
             else {
-                alert("El kell fogadni az ÁSZF-et!")
+                alert("Ha nem fogadja el az ÁSZF-et, nem tud felíratkozni a hírlevélre!")
             }
         }
     </script>

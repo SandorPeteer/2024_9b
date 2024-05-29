@@ -1,59 +1,50 @@
 body {
-  background-color: black;
+  background-image: url(hatter.jpg);
 }
 
 p {
   color: white;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 17px;
 }
 
 #tartalom {
-  width: 1290px;
-  float: right;
   background-color: black;
   color: white;
-  
-  padding: 40px;
+  width: 1200px;
+  margin: auto;
+
+
 }
 
 h2 {
   border: 1px solid lightblue;
   background-color: lightblue;
-  
+
 }
 
 #navsav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 15%;
-  background-color: black;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
 }
-ul{
+
+ul {
   padding: 0;
 }
+
 li {
   color: white;
   padding: 8px 16px;
 }
 
-#fonav {
-  background-color: lightskyblue;
-  height: 40px;
-  color: white;
+nav {
+  position: fixed;
 }
 
 li a {
-  display: block;
   color: white;
-  padding: 8px 16px;
   text-decoration: none;
 }
-
 
 li a:hover {
   background-color: lightskyblue;
@@ -70,10 +61,12 @@ li a:hover {
   width: 250px;
   margin: 20px;
 }
-#metrokep2{
+
+#metrokep2 {
   width: 400px;
   margin: 20px;
 }
+
 form {
   border: 1px solid white;
   background-color: white;
@@ -108,11 +101,15 @@ img {
 }
 
 #uj {
-  width: 300px;
+  width: 400px;
   padding: 0;
 }
 
 #regi {
-  width: 300px;
+  width: 400px;
   padding: 0;
+}
+
+#table2 {
+  margin: 40px;
 }
