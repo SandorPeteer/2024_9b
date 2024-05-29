@@ -12,6 +12,13 @@
             <h1>Katonai Csatahajók</h1>
             <div id="NAV">
                 <nav>
+                    <a href="/index.html">
+                        <div id="gomb" style="color: whitesmoke;">
+                            <p>
+                                Főoldal
+                            </p>
+                        </div>
+                    </a>
                     <div id="gomb" style="background-image: url(Flags/Soviet.png); color: whitesmoke;" onclick="Kirov()">
                         <p>
                             Kirov osztályú cirkáló
@@ -27,9 +34,9 @@
                             Duke of York
                         </p>
                     </div>
-                    <div id="gomb" style="background-image: url(Flags/USA.png); color: white;" onclick="Duke()">
+                    <div id="gomb" style="background-image: url(Flags/USA.png); color: white;" onclick="CV()">
                         <p>
-                            Empty
+                            Unites Stages CVA 58
                         </p>
                     </div>
                 </nav>
@@ -140,21 +147,64 @@
             </div>
         </div>
     </div>
+    <div id="CV">
+        <div id="szoveg">
+            <h2>Duke of York</h2>
+            <div id="balimg">
+                <img src="" alt="CV-ról egy kép">
+                <a href="https://hu.wikipedia.org/wiki/USS_United_States_(CVA_58)">
+                    <h4>Kép Forrása: Wikipedia</h4>
+                </a>
+            </div>
+            <div id="jobbszoveg">
+                <h3>Fegyverzete</h3>
+                <p>
+                    Hajók és repülőgépek elleni közeli védelemmel szerelték volna fel, a repülőfedélzet pereme alatt. Nyolc darab 127 mm üteg és tizenhat darab 76 mm-es ikercsövű üteg védte volna. Légelhárításra 20 darab 20 mm-es Oerlikon gépágyú szolgált.
+                </p>
+            </div>
+            <hr>
+            <div id="jobbimg">
+                <h4>Tervrajza</h4>
+                <img src="DukePlan.jpg" alt="Duke Tervrajza">
+                <a href="https://www.the-blueprints.com/blueprints/ships/ships-uk/49175/view/hms_duke_of_york_battleship/">
+                    <h4>Kép Forrása: The Blueprints</h4>
+                </a>
+            </div>
+            <div id="balszoveg">
+                <h3>Tervezése</h3>
+                <p>
+                    A United States osztály egyik különlegessége az lett volna, hogy a nagy távolságra bevethető bombázók szélesebb szárnyfesztávja miatt a hordozón nem lett volna semmiféle fedélzeti felépítmény. Ez azonban számos egyéb problémával is járt volna, például a hajómotorból származó kipufogógáz elvezetésénék hiányával, amellyel egyébként a USS Langley esetében már az 1920-as években is meg kellett küzdeni. A pilóták viszont már az 1930-as évek óta felépítmény nélküli fedélzetre vágytak, az első kifejezetten hordozónak szánt, tehát nem cirkálóból átalakított hordozót, a USS Ranger-t is eredetileg így tervezték.
+                </p>
+                <p>
+                    A másik nehézséget az jelentette volna, hogy torony hiányában nem lehetett volna hova elhelyezni a radarokat. Az egyik javasolt megoldás erre egy külön csapásvezérlő hajó rendszeresítése lett volna, amely a közelből adta volna át rádión a radaron érzékelt jeleket. Egy másik megoldás szerint külön radarral felszerelt repülőgép feladata lett volna a saját és ellenséges gépek nyomon követése, amely előrevetítette a későbbi AWACS rendszereket.
+                </p>
+            </div>
+        </div>
+    </div>
     <script>
             function Kirov() {
                 document.getElementById("kirov").style.display = "block"
                 document.getElementById("bismark").style.display = "None"
                 document.getElementById("duke").style.display = "None"
+                document.getElementById("CV").style.display = "None"
             }
             function Bismark() {
                 document.getElementById("kirov").style.display = "None"
                 document.getElementById("bismark").style.display = "block"
                 document.getElementById("duke").style.display = "None"
+                document.getElementById("CV").style.display = "None"
             }
             function Duke() {
                 document.getElementById("kirov").style.display = "None"
                 document.getElementById("bismark").style.display = "None"
                 document.getElementById("duke").style.display = "block"
+                document.getElementById("CV").style.display = "None"
+            }
+            function CV() {
+                document.getElementById("kirov").style.display = "None"
+                document.getElementById("bismark").style.display = "None"
+                document.getElementById("duke").style.display = "None"
+                document.getElementById("CV").style.display = "block"
             }
     </script>
 </body>
