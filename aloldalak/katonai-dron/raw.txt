@@ -10,8 +10,10 @@ Black Hornet
 
 A Black Hornet egy miniatűr, helikopter formájú felderítő drón, amely kompakt méretével és könnyű hordozhatóságával tűnik ki. Ezt a drónt elsősorban rövid távú felderítésre használják, különösen városi vagy zárt terepen. A Black Hornet lehetővé teszi a katonák számára, hogy gyorsan és diszkréten gyűjtsenek információkat a környező területről anélkül, hogy közvetlen veszélybe kerülnének. Kiváló eszköz a veszélyes helyszínek előzetes felmérésére, és értékes segítséget nyújt a taktikai döntéshozatalban.
 
-Hermes 900
-
-l és kamerarendszerekkel van felszerelve.A Hermes 900 egy közepes hatótávolságú, nagy magasságú, pilóta nélküli légi jármű (UAV), amelyet az Elbit Systems fejlesztett ki Izraelben. Ezt a drónt különböző katonai és polgári feladatokra használják, beleértve a felderítést, a megfigyelést és a célpontok követését. Képes hosszú repülési időtartamra és nagy magasságok elérésére, miközben fejlett szenzorokka
+A Hermes 900 egy közepes hatótávolságú, nagy magasságú drón, amit az Elbit Systems fejlesztett ki Izraelben. Ezt a drónt különböző katonai és polgári feladatokra használják: 
+felderítés
+megfigyelés
+célpontok követése 
+Képes hosszú repülési időtartamra és nagy magasságok elérésére, miközben fejlett szenzorokkal és kamerarendszerekkel van felszerelve.
 
 (OpenAI)
