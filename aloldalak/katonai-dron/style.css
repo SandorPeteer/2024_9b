@@ -2,7 +2,7 @@ body{
     background-image: url(project-bg.jpg);
     background-repeat: repeat-y;
     background-size: 100%;
-    color: whitesmoke
+    color: rgb(255, 255, 255)
 }
 #main{
     background-color: rgba(101, 26, 241, 0.219);
@@ -121,7 +121,7 @@ td{
     opacity: 1;
   }
 p{
-    font-size: 20px;
-    text-shadow: 2px 2px #000000;
-    color: rgb(201, 201, 201);
+    font-size: 17px;
+    text-shadow: 3px 3px #000000;
+    color: white;
 }
