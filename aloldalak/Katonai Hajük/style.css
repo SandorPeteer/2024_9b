@@ -126,7 +126,7 @@ hr{
 #gomb:hover{
     transition: 0.75s;
     transform: scale(1.10);
-    background-color: rgb(0, 126, 155);
+    background-color: rgba(0, 162, 200, 1);
     cursor: pointer;
 }
 a:any-link{
