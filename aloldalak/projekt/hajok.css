@@ -1,9 +1,10 @@
 body{
-    background-image: url(tFQiw3.jpg);
+    background-image: url(silas-baisch-K785Da4A_JA-unsplash.jpg);
 }
 p{
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
+    font-size: large;
 }
 h1{
     color: white;
@@ -26,9 +27,16 @@ h3{
 li{
     padding-left: 15px;
 }
+
 img{
-    padding-left: 10px;
-            width: 500px;
-            float: right;
-            padding: 15px;   
+    padding-left: 0%;
+        width: 500px;
+        float: right;
+        padding: 15px;
+    }
+link{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: white;
 }
