@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katonai Földi Autók</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigációs Menü -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Katonai Földi Autók</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#section1">Uaz 469</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Uaz 3909</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Szekciók -->
+  <div id="section1" class="container-fluid bg-success text-white" style="height: 800px;">
+    <h1>Uaz 469</h1>
+    <p>Az UAZ Hunter, más néven UAZ-469, egy strapabíró terepjáró jármű, amelyet a orosz autógyártó, az UAZ (Ulyanovsky Avtomobilny Zavod) gyárt. Először 1971-ben mutatták be, azóta híres lett strapabíróságáról, egyszerűségéről és képességéről terepen. Az UAZ Huntert különböző katonai, kormányzati és civil szervezetek használták világszerte azért, mert robosztussága és terepjáró képességei miatt.</p>
+    <img src="img/2uaz.jpg" width="700" height="500" >
+    <img src="img/uazmaffia.jpg" width="700" height="500">
+    <div class="table">
+    <table>
+        <th>Adatok:</th>
+        <tr>
+            <td>Márka:</td>
+            <td>UAZ</td>
+        </tr>
+        <tr>
+            <td>Típus:</td>
+            <td>469</td>
+        </tr>
+        <tr>
+            <td>Motor:</td>
+            <td>2.45 (75 LE)</td>
+        </tr>
+        <tr>
+            <td>Gyártás kezdete:</td>
+            <td>1964</td>
+        </tr>
+        <tr>
+            <td>Gyártás vége:</td>
+            <td>1985</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  <div id="section2" class="container-fluid bg-success text-white" style="height: 800px;">
+    <hr>
+    <h1>Uaz 3909</h1>
+    <img src="img/combi.jpg" width="700" height="500" >
+    Az UAZ Buhanka, hivatalos nevén UAZ-452, egy orosz gyártmányú, könnyű terepjáró kisbusz, amelyet az Uljanovszki Autógyár (UAZ) készít. Az 1965 óta gyártott jármű egy ikonikus modell, amelyet leginkább a szovjet hadsereg, valamint különféle polgári és ipari felhasználók körében használnak.
+
+A Buhanka ("kenyérke") nevét az alakja után kapta, mivel a jármű egyszerű, kerekded formája egy kenyércipóra emlékeztet. Az UAZ-452 megbízhatóságáról és masszív felépítéséről híres, különösen nehéz terepviszonyok között. Ez a jármű négykerék-meghajtással rendelkezik, ami rendkívül alkalmassá teszi terepjáró feladatokra, akár hegyvidéki, akár sáros, vagy havas körülmények között.
+
+A Buhanka különféle verziókban érhető el, beleértve a személyszállítót, teherautót és mentőautót is. Ezek a változatok különféle igények kielégítésére szolgálnak, legyen szó katonai, mentési vagy szállítási feladatokról. A jármű egyszerű, de robusztus felépítése és alacsony fenntartási költségei miatt még ma is népszerű, különösen a posztszovjet térségben és más fejlődő országokban.
+
+<h2>Főbb jellemzők</h2>
+
+<ol>
+  <li>Gyártás kezdete: 1965</li>
+  <li>Forma: Kerekded, kenyércipóra emlékeztető</li>
+  <li>Négykerék-meghajtás</li>
+  <li>Kiváló terepjáró képességek</li>
+  <li>Megbízhatóság és masszív felépítés</li>
+  <li>Alacsony fenntartási költségek</li>
+</ol>
+<h2>Elérhető verziók</h2>
+<ol>
+  <li>Személyszállító</li>
+  <li>Teherautó</li>
+  <li>Mentőautó</li>
+</ol>
+
+  </div>
+
+  <footer>
+    <hr>
+    <h1 style="text-align: center;">Copyright: Markotai Zsolt</h1>
+    <a href="mailto:markotaizs@kkszki.hu">markotaizs@kkszki.hu</a>
+
+    <fieldset>
+      <input type="email" id="email" name="email" placeholder="EMAIL required">
+    
+      <br> 
+    
+      <input type="text" id="nev" placeholder="NÉV">
+    
+      <br>
+    
+      <label for="checkbox">ÁSZF</label>
+      <input type="checkbox" id="ÁSZF" name="ÁSZF" checked>
+    
+      <br> 
+    
+      <label for="checkbox">HÍRLEVÉL</label>
+      <input type="checkbox" id="hirlevel" name="hirlevel">
+    
+      <br>
+    
+      <button type="submit" class="button">OKÉ</button>
+      </fieldset>
+</footer>
+
+  <!-- Bootstrap JavaScript fájlok -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  
+  <script>
+    function hir() {
+      if (aszf.checked) {
+        localStorage.setItem("EMAIL required", mail_input.value);
+        localStorage.setItem("NÉV", name_input.value);
+        if (hir_level.checked) {
+          localStorage.setItem("hirlevel", "igen");
+        } else {
+          localStorage.setItem("hirlevel", "nem");
+        }
+      } else {
+        alert("El kell fogadni az ÁSZF-et!");
+      }
+    }
+  </script>
+
+</body>
+</html>
