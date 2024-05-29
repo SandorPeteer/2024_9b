@@ -28,4 +28,8 @@ li{
 }
 img{
     padding-left: 10px;
+        padding-left: 0%;
+            width: 500px;
+            float: right;
+            padding: 15px;   
 }
