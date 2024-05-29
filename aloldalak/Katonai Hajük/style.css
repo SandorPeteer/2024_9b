@@ -34,12 +34,12 @@ h4{
     margin: 1px;
 }
 
-#kirov,#bismark,#duke{
+#kirov,#bismark,#duke,#CV{
     padding: 6px;
     width: 1000px;
     margin: auto;
 }
-#bismark,#duke{
+#bismark,#duke,#CV{
     display: none;
 }
 
