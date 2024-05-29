@@ -10,9 +10,7 @@
     <script src="    https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="hajok.css">
 </head>
-<body>
-   <div>
-       
+<body>       
        <h1>Vizijarművek</h1>
        <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
            <div class="container">
@@ -30,9 +28,8 @@
                 </div>
            </div>
        </nav>
-       <section id="info">
-       
-           <h2><a href="https://hu.wikipedia.org/wiki/Hajó#A_hajó_szerkezeti_felépítése">A hajó szerkezeti felépítése</a></h2>
+       <div id="bundas">
+        <h2><a href="https://hu.wikipedia.org/wiki/Hajó#A_hajó_szerkezeti_felépítése">A hajó szerkezeti felépítése</a></h2>
            
            <img src="Ship_diagram-numbers.svg.png" alt="Ship_diagram-numbers" style="float: inline-start;"><p>A hajótest a fenékből, az oldalfalakból, a feneket és az oldalfalakat összekötő hajlásból és a testet felülről lezáró fedélzetből áll. A fenék lehet lapos, vagy ívelt kiképzésű. A test elöl az orrban, hátul a tatban végződik, amelyek szintén különböző kialakításúak (egyenes, ívelt, hegyes) lehetnek. A hajótest merevségét az alján hosszában végigfutó gerinc és az arra merőleges bordák biztosítják. A bordák adják meg a hajótest alakját. A gerinc elöl az orrtőkében, hátul a fartőkében folytatódik. A fedélzetet a fedélzeti gerendák tartják. A bordákra lemezeket vagy palánkokat erősítenek. Ez a szerkezet a fából és fémből épített hajókra (és a műanyag hajók többségére is) egyaránt jellemző. A faépítésű hajóknál a gerinc, és a bordák fából vagy fémből, a palánkok és a fedélzet fából készül. A fémépítésű hajóknál a test zömmel acélból készül, a bordákra kívülről alakra formált lemezeket erősítenek (kezdetben szegecseléssel, később hegesztéssel).</p>
                <p>Géphajók esetén a hátsó részen helyezkedik el a géptér, amelyben a hajó hajtását biztosító főgépeket, az egyéb funkciókat ellátó segédüzemi gépeket, az elektromos kapcsolóberendezéseket és a hajócsavar kihajtását (a csavartengelyt) helyezik el. A hajócsavar és a kormány a taton található. A géptér fölött van az égéstermékek távozását biztosító kémény.</p>
@@ -71,5 +68,40 @@
     <li>Révkalauzhajó</li>
     <li>Mentőhajó</li>
     </ul>
+       </div>
+       
+       <form action="javascript:hirlevel()">
+        <fieldset>
+            <input type="text" name="data" id="nev_input" class="form-control" placeholder="Név" required>
+            <br>
+            <input type="email" name="data" id="email_input" class="form-control" placeholder="E-Mail cím" required>
+            <br>
+            <div class="form-check">
+                <input type="checkbox" name="data" id="aszf" checked> Elfogadom az <a href="aszf.txt" target="_blank" class="feherlink">Általános Szerződési Feltételeket</a>
+                <br>
+                <input type="checkbox" name="data" id="level" checked> Kérem a hírlevelet
+                <br>
+                <input type="submit" value="Beküldés">
+            </div>
+        </fieldset>
+        <script>
+            function hirlevel(){
+                if (aszf.checked){
+                    localStorage.setItem("nev",nev_input.value)
+                    localStorage.setItem("email",email_input.value)
+                    if (level.checked){
+                        localStorage.setItem("hirlevel","ker")
+                        alert("kösz öreg a feliratkozást a hírlevelünkre")
+                    }
+                    else{
+                        localStorage.setItem("hirlevel","nem ker")
+                        alert("na de ha nem kéred akkor minek vagy itt?")
+                    }
+                }
+                else{
+                    alert("Fogadd el az ÁFSZT 1-2!")
+                }
+            }
+        </script>
 </body>
 </html>
