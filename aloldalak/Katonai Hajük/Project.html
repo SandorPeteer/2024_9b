@@ -39,6 +39,11 @@
                             USS Wichita (CA-45)
                         </p>
                     </div>
+                    <div id="gomb" style="color: whitesmoke;" onclick="Tab()">
+                        <p>
+                            Összehasonlítás
+                        </p>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -184,6 +189,27 @@
             </div>
         </div>
     </div>
+    <div id="Tab">
+        <div id="szoveg">
+            <h2>Összehasonlítás</h2>
+            <div id="balimg">
+                <table>
+                    <tr>
+                        Testvérhajójával
+                        <td>
+                            Testvérhajójával
+                        </td>
+                        <td>
+                            Testvérhajójával
+                        </td>
+                        <td>
+                            Testvérhajójával
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
     <footer>
         <div id="cim">
             <h3>-- © Reszler Béla Bendegúz 2024 --</h3>
@@ -202,24 +228,35 @@
                 document.getElementById("bismark").style.display = "None"
                 document.getElementById("duke").style.display = "None"
                 document.getElementById("CV").style.display = "None"
+                document.getElementById("Tab").style.display = "None"
             }
             function Bismark() {
                 document.getElementById("kirov").style.display = "None"
                 document.getElementById("bismark").style.display = "block"
                 document.getElementById("duke").style.display = "None"
                 document.getElementById("CV").style.display = "None"
+                document.getElementById("Tab").style.display = "None"
             }
             function Duke() {
                 document.getElementById("kirov").style.display = "None"
                 document.getElementById("bismark").style.display = "None"
                 document.getElementById("duke").style.display = "block"
                 document.getElementById("CV").style.display = "None"
+                document.getElementById("Tab").style.display = "None"
             }
             function CA() {
                 document.getElementById("kirov").style.display = "None"
                 document.getElementById("bismark").style.display = "None"
                 document.getElementById("duke").style.display = "None"
                 document.getElementById("CA").style.display = "block"
+                document.getElementById("Tab").style.display = "None"
+            }
+            function Tab() {
+                document.getElementById("kirov").style.display = "None"
+                document.getElementById("bismark").style.display = "None"
+                document.getElementById("duke").style.display = "None"
+                document.getElementById("CA").style.display = "None"
+                document.getElementById("Tab").style.display = "Block"
             }
 
             function hir() {
