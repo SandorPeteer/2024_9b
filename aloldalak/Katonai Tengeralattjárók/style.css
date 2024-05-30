@@ -1,6 +1,7 @@
 body{
     background-image: url(hatter2.jpg) ;
-    background-repeat:repeat-y ;
+  
+    background-size: cover;
 }
 .container{
     margin: auto;
