@@ -1,14 +1,10 @@
-body{
-    background-image: url(beautiful-clouds-digital-art.jpg);
-  }
+
+
   th{
     text-align: center;
-    text-decoration: underline;
+ 
   }
   
-  a, a:visited, a:hover, a:active{
-  color: black;
-  }
   
   .topnav {
     background-color: #1014e9;
@@ -17,11 +13,11 @@ body{
   
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #ebe6e6;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 17px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
   }
   
   .topnav a:hover {
