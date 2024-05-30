@@ -24,3 +24,10 @@ body{
     color: black;
     text-decoration: underline;
 }
+
+.katonai{
+    background-image: url(img/Katonaikartya.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
