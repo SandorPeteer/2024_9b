@@ -21,7 +21,7 @@ h2{
     font-size: 27px;
     text-align: left;
     padding-top: 5px;
-    text-decoration: line-through 2px rgba(167, 70, 231, 0.342);
+    text-decoration: line-through 3px rgba(183, 76, 255, 0.411);
 }
 #bevez{
     display: flex;
