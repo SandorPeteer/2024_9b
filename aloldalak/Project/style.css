@@ -2,6 +2,8 @@ body{
     background-color: green;
     color: white;
     font-family: Verdana;
+    background-image: url(../Project/grippen.jpg);
+    background-repeat: repeat-y;
 }
 div{
     background-color:rgba(72, 255, 0, 0.562);
