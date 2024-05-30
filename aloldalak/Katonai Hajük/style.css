@@ -50,7 +50,7 @@ td{
     border-radius: 10px;
 }
 
-#szoveg{
+.szoveg{
     width: fit-content;
     background-color: rgba(0, 162, 255, 0.75);
     padding: 10px;
@@ -58,7 +58,7 @@ td{
     color: rgb(203, 230, 247);
 }
 
-#balimg{
+.balimg{
     float: left;
     border: 2px double darkblue;
     border-radius: 10px;
@@ -66,7 +66,7 @@ td{
     padding: 3px;
     background-color: rgba(0, 162, 200, 0.69);
 }
-#jobbimg{
+.jobbimg{
     float: right;
     border: 2px double darkblue;
     border-radius: 10px;
@@ -79,21 +79,21 @@ img{
     border-radius: 10px;
 }
 
-#jobb{
+.jobb{
     float: right;
 }
-#jobbszoveg{
+.jobbszoveg{
     float: right;
     display: contents;
 }
-#bal{
+.bal{
     float: left;
 }
-#balszoveg{
+.balszoveg{
     float: left;
     display: contents;
 }
-#normal{
+.normal{
     clear: both;
 }
 
@@ -103,7 +103,7 @@ hr{
     background-color: darkblue;
     border: none;
 }
-#cim{
+.cim{
     vertical-align: middle;
     text-align: center;
     border-radius: 25px;
@@ -117,7 +117,7 @@ hr{
     display: grid;
     justify-content: center;
 }
-#gomb{
+.gomb{
     float: left;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 10px;
