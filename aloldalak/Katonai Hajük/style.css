@@ -46,6 +46,7 @@ h4{
 td{
     text-align: center;
     padding: 5px;
+    border: 1px black solid;
 }
 
 #szoveg{
