@@ -36,7 +36,7 @@ h4{
 
 #kirov,#bismark,#duke,#CA{
     padding: 6px;
-    width: 1000px;
+    max-width: 950px;
     margin: auto;
 }
 #bismark,#duke,#CA{

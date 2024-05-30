@@ -184,6 +184,18 @@
             </div>
         </div>
     </div>
+    <footer style="background-color: #e95d75; height: 210px;">
+        <h3 style="text-align: center; border: #ffffff 3px solid;">--© Reszler Béla Bendegúz 2024--</h3>
+        <form action="javascript:hir()">
+        <fieldset style="text-align: center">
+                <input type="email" name="data" placeholder="Email" id="mail_input" required > <br>
+                <input type="text" name="data" placeholder="Neved" id="name_input" required > <br>
+                <input type="checkbox" id="aszf" checked>Ászf<br> 
+                <input type="checkbox" id="hir_level">Hírlevél<br>
+                <input type="submit" value="OK" >
+            </fieldset>
+        </form>
+    </footer>
     <script>
             function Kirov() {
                 document.getElementById("kirov").style.display = "block"
@@ -209,6 +221,25 @@
                 document.getElementById("duke").style.display = "None"
                 document.getElementById("CA").style.display = "block"
             }
+
+            function hir() {
+        if (aszf.checked) {
+            localStorage.setItem("email",mail_input.value)
+            localStorage.setItem("name",name_input.value)
+        if (hir_level.checked) {
+            localStorage.setItem("hirlevel","igen")
+            alert("Köszönjük hogy feliratkozott!")
+
+        }
+        else {
+            localStorage.setItem("hirlevel","nem")
+        }
+
+    }
+    else{
+        alert("Fogadja el az szf-et!")
+    }
+}
     </script>
 </body>
 </html>
