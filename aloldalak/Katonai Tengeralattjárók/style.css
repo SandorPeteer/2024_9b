@@ -79,5 +79,5 @@ fieldset{
 input, legend{
     text-align: center;
     margin: auto;
-    padding: 10px;
+    padding: auto;
 }
