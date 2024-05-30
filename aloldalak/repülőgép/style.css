@@ -57,3 +57,7 @@ p{
         background-color: rgba(255, 255, 255, 0.66);
         border-radius: 15px;
     }
+
+    a:active, a:link, a:hover{
+      color: #1014e9;
+    }
