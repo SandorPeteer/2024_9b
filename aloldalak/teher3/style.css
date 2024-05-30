@@ -50,3 +50,6 @@ footer{
 ul{
     color: white;
 }
+a:active, a:visited, a:hover, a:link{
+    text-decoration: none;
+}
