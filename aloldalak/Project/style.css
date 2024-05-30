@@ -5,11 +5,6 @@ body{
     background-image: url(../Project/grippen.jpg);
     background-repeat: repeat-y;
 }
-div{
-    background-color:rgba(72, 255, 0, 0.562);
-    color: black;
-    text-align: center;
-}
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
