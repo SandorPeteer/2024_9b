@@ -75,13 +75,13 @@ a:hover{
 span{
     font-weight: bold;
 }
-.bl-horn-bal{
+#bl-horn-bal{
     display: block;
     float: inline-start;
     font-size: x-large;
     text-align: justify;
 }
-.bl-horn-jobb{
+#bl-horn-jobb{
     float: inline-end;
     display: block;
     width: 320px;
