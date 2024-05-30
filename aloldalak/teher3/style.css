@@ -43,7 +43,7 @@ footer{
 #sideb{
     height: 900px;
 }
-#mainn{
+.mainn{
     color: white;
     text-indent: 20px;
 }
