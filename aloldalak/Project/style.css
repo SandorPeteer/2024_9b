@@ -6,6 +6,7 @@ body{
 div{
     background-color:rgba(72, 255, 0, 0.562);
     color: black;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -23,7 +24,4 @@ a{
 #szin{
     color: blue;
     background-color: black;
-}
-#tablazat{
-    text-align: center;
 }
