@@ -58,9 +58,8 @@ p{
         border-radius: 15px;
     }
 
-    a:active, a:link, a:hover{
+    a:a:hover,a:visited,a:link{
       color: #1014e9;
     }
-    a{
-      color: #1014e9;
-    }
+      
+    
