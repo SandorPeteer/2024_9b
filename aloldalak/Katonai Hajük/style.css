@@ -43,6 +43,11 @@ h4{
     display: none;
 }
 
+td{
+    text-align: center;
+    padding: 5px;
+}
+
 #szoveg{
     width: fit-content;
     background-color: rgba(0, 162, 255, 0.75);
