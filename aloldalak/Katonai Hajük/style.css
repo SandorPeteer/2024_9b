@@ -34,12 +34,12 @@ h4{
     margin: 1px;
 }
 
-#kirov,#bismark,#duke,#CA,#Tab{
+#kirov,#bismark,#duke,#CA,#TAB{
     padding: 6px;
     max-width: 950px;
     margin: auto;
 }
-#bismark,#duke,#CA,#Tab{
+#bismark,#duke,#CA,#TAB{
     display: none;
 }
 
