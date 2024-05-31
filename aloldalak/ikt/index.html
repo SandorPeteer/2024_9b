@@ -52,6 +52,7 @@
         <br>
         <br>
     <div id="tablazat">
+        <h4 class="text-center color2">Táblázat</h4>
         <div class="bgcolor2 container color1">
             <table  class="table table-bordered table-dark">
                 <tr>
@@ -73,14 +74,18 @@
         </div>
     </div>
         <br>    
-        <div id="hirlevel" class="container bgcolor2" >
+        <h4 class="text-center color2">Hírlevél (opcionális)</h4>
+        <p class="text-center color2 " style="font-size: 20px;">Töltsd ki ha szeretnél bekerülni a rendszerünkbe és hirdető emaileket kapni a hírlevelünkről.</p>
+        <div id="hirlevel" class="container bgcolor2 " >
            <form action="javascript:hir()">
             <fieldset style="width: fit-content;">
-                <input type="email" name="data" id="mail_input" placeholder="email" required><br>
-                <input type="text" name="data" id="name_input" placeholder="név" required><br>
-                <input type="checkbox" name="data" id="aszf" checked>ászf <br>
-                <input type="checkbox" name="data" id="hir_level"><br>
-                <input type="submit" value="OK">
+                <input type="email" name="data" id="mail_input" placeholder="Add meg az email címed." required><br>
+                <input type="text" name="data" id="name_input" placeholder="Add meg a neved" required><br>
+                <input class="color2" type="checkbox" name="data" id="aszf" checked>
+                <label class="color2" for="aszf">Pipáld be az ÁSZF elfogadásához</label><br>
+                <input class="color2" type="checkbox" name="data" id="hir_level">
+                <label class="color2" for="hir_level">Pipáld be ha szeretnél email-eket kapni.</label>br
+                <input type="submit" value="Kész">
             </fieldset>
            </form>
         </div>
