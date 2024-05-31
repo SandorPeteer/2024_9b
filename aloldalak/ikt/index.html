@@ -3,454 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Civil-személyi autók</title>
 </head>
 <body>
-    <nav class="main-nav bg-dark container-fluid fixed-top">
-        <div class="nav-ul bg-dark container d-flex justify-content-between align-items-center">
-            <a href="index.html" class="h3 mb-0 text-white font4" id="navbar-maintext">
-                <span class="font1"><font style="color: #00f6ff;">Civil</font> </span>- Személyi autók
-            </a>
-            <div id="navbar-navigation" class="font2">
-                <a href="#autofelsorolas" class="text-white font4">| Autó márkák |</a>
-                <a href="#autotipusok" class="text-white font4">| Autó típúsok |</a>
-                <a href="#hirlevel" class="text-white font4">| Hírlevél |</a>
-                <a href="../../index.html" class="text-primary font4">| Kezdőlap |</a>
-            </div>
+        <nav class="fixed-top">
+            
+            <div class="bgcolor1 font2 nav-main font1">
+                <a href="../../index.html">| Főoldal |</a>
+                <a href="#tablazat">| Táblázat |</a>
+                <a href="#main">| Autó márkák |</a>
+                <a href="#hirlevel">| Hírlevél |</a>
+              </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+
+    <div id="main" class="utcakocsik bgcolor1 color1 container">
+        <h5 class="tsize1 text-center">Személyi autók</h5>
+        <p class="stdivp">A civil-személyi autók mindennapi életünk elengedhetetlen részévé váltak. Ezek a járművek kényelmet és mobilitást biztosítanak a városi közlekedésben, hosszabb utazásokon és a mindennapi teendők során. A modern személyautók számos technológiai újítással rendelkeznek, amelyek fokozzák a biztonságot, a teljesítményt és az üzemanyag-hatékonyságot. A különböző típusok - a kompakt városi autóktól kezdve a tágas családi modellekig - minden igényt kielégítenek, és megkönnyítik a mindennapi életet. Az autógyártók folyamatosan fejlesztik járműveiket, hogy megfeleljenek a környezetvédelmi előírásoknak és a fenntarthatósági követelményeknek.</p>
         </div>
-    </nav>
-    <br><br><br><br>
-    <div class="container text-white">
-        <div class="row">
-            <div class="col-sm-8 col-md-8 col-lg-8 rounded">
-                <h5 class="font1">Aktuális híreink</h5>
-                <div class="shadow p-3 mb-5 gray2 rounded">
-                    <h5>Civil-Személyi autók</h5>
-                <p style="padding-inline-start: 10px; text-align: justify;">A civil személyi autó olyan jármű, amelyet magánszemélyek használnak mindennapi közlekedésre, munkába járásra és családi utakra. Ezek az autók nem hivatalos vagy kereskedelmi célokat szolgálnak, hanem személyes igényeket elégítenek ki. Általában kényelmesek, biztonságosak és különböző típusokban, méretekben és márkákban elérhetők, hogy megfeleljenek a tulajdonosok egyedi igényeinek és preferenciáinak.</p>
-                <h5>Utcákon megtalálható autók</h5>
-                <p style="padding-inline-start: 10px; text-align: justify;">Nagyon sok fajta és különböző márkájú autóba megtalálható az utakon, ezen márkák különböző modell is megtalálható pl.:</p>
-                <ul>
-                    <li>SUV</li>
-                    <li>Pickup</li>
-                    <li>Hatchback</li>
-                    <li>Kombi</li>
-                    <li>Coupe</li>
-                    <li>Sedan</li>
-                    <li>Kabrió</li>
-                    <li>Roadster</li>
-                    <li>Crossover</li>
-                </ul>
-            </div>
-                <div class="shadow p-3 mb-5 gray2 rounded">
-                    <p class="font3">
-                        <table style="margin-left: 100px;">
-                            <tr>
-                                <td><b>Autó megnevezése</b></td>
-                                <td><b>Gyártási év</b></td>
-                                <td><b>Eladott darabok</b></td>
-                            </tr>
-                            <tr>
-                                <td>Ford focus RS</td>
-                                <td>2010</td>
-                                <td>11,000db</td>
-                            </tr>
-                            <tr>
-                                <td>Toyota Camry</td>
-                                <td>2022</td>
-                                <td>676.845db</td>
-                            </tr>
-                            <tr>
-                                <td>CC passat</td>
-                                <td>2008</td>
-                                <td>30,000,000db</td>
-                            </tr>
-                            <tr>
-                                <td>Passat B8</td>
-                                <td>2014</td>
-                                <td>5,000,000db</td>
-                            </tr>
-                            <tr>
-                                <td>Renault Clio IV</td>
-                                <td>2012</td>
-                                <td>6,000,000db</td>
-                            </tr>
-                            <tr>
-                                <td>VW Sciroro 2018</td>
-                                <td>2018</td>
-                                <td>700,000db</td>
-                            </tr>
-                            <tr>
-                                <td>BMW F11</td>
-                                <td>2010</td>
-                                <td>1,200,000db</td>
-                            </tr>
-                            <tr>
-                                <td>Mercedes-Benz W210</td>
-                                <td>2002</td>
-                                <td>400,000db</td>
-                            </tr>
-                            <tr>
-                                <td>BMW m5 e60</td>
-                                <td>2007</td>
-                                <td>100,000db</td>
-                            </tr>
-                        </table>
+        <div class="main bgcolor1 color2 container col-md-8">
+                <p>Részletes leírásért katt a képre</p>
+                <div >
+                    <span >
+                        <div class="col text-center">
+                            <h5 class="color1">Mercedes-Benz EVO II</h5>
+                            <a href="aloldalak2/html2.html"><img src="img/EvoII.png" alt="..." class="kocsikep"></a>
+                        </div>
+                    </span>
+                    <span >
+                        <div class="col text-center">
+                            <h5 class="color1">BMW m4 F82</h5>
+                            <a href="aloldalak2/html3.html"><img src="img/f82.jpg" alt="..." class="kocsikep"></a>
+                        </div>
+                    </span>
+                    <span >
+                        <div class="col text-center">
+                            <h5 class="color1">Mercedes-Benz Gt63s</h5>
+                            <a href="aloldalak2/html4.html"><img src="img/gt63.png" alt="..." class="kocsikep"></a>
+                        </div>
+                    </span>
                 </div>
-            </div>
-            <div id="hirlevel" class="col-sm-4 col-md-4 col-lg-4" >
-                <h4 class="font1"><span></span>Feliratkozás a hírlevélre (opcionális)</h4>
-                <div class="shadow p-3 mb-5 gray2 rounded">
-                    <form action="hir()">
-                        <fieldset id="hirlevel_fieldset">
-                                <input type="text"  name="data" id="name_input" placeholder="Add meg a neved.">
-                            <br>
-                                <input type="text"  name="data" id="mail_input" placeholder="Add meg az email címed.">
-                            <br>
-                                <input style="display: inline-block; vertical-align: middle;" type="checkbox" id="hirlevel_checkbox">Pipáld be</span>
-                            <br>
-                                <input style="display: inline-block; vertical-align: middle;" type="checkbox" id="hirlevel_checkbox">Pipáld be</span>
-                            <br>
-                            <input type="submit" value="Kész">
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
+        </div>
+        <br>
+        <br>
+    <div id="tablazat">
+        <div class="bgcolor2 container color1">
+            <table  class="table table-bordered table-dark">
+                <tr>
+                    <td >Autó megnevezése:</td>
+                    <td >BMW</td>
+                    <td >Mercedes-Benz</td>
+                </tr>
+                <tr>
+                    <td>Legszebb autó</td>
+                    <td>BMW m5 F90</td>
+                    <td>Mercedes-Benz 190e EVO II</td>
+                </tr>
+                <tr>
+                    <td>Leggyorsabb autó</td>
+                    <td>BMW m8 Mannhart</td>
+                    <td>Mercedes-Benz AMG GT</td>
+                </tr>
+            </table>
         </div>
     </div>
-
-    <section id="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h5 class="font1 text-white">Autók</h5>
-                    <div class="shadow p-3 mb-5 gray2 rounded">
-                        <div id="autofelsorolas" class="row">
-                            <div id="autokartyak" class="col">
-                                <div class="card bg-dark text-white border-secondary">
-                                    <img src="img/f82.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title font2 text-center">BMW M4 F82</h5>
-                                        <p class="card-text">
-                                            </p><ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Megnevezés</span>
-                                                    <span class="text-first font3">BMW m4 f82</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Súly</span>
-                                                    <span class="text-first font3">1537 kg</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">0-100km/h</span>
-                                                    <span class="text-first font3">
-                                                        8.6 másodperc                                                                </span>
-                                                </li>
-                                            </ul>
-                                            <br>
-                                            <h5 class="font1 text-center">Egyéb tudnivalók</h5>
-                                            <ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Hosszúság</span>
-                                                    <span class="text-first font3">4671 mm	</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Szélesség</span>
-                                                    <span class="text-first font3">1870 mm</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Magasság</span>
-                                                    <span class="text-first font3">1383 mm</span>
-                                                </li>
-    
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3 ">Születési év </span>
-                                                    <span class="text-first font3">2014</span>
-                                                </li>
- 
-                                            </ul>
-                                            <br>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card bg-dark text-white border-secondary">
-                                    <img src="img/m3Touring.png" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title font2 text-center">BMW M3 Touring</h5>
-                                        <p class="card-text">
-                                            </p><ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Megnevezés</span>
-                                                    <span class="text-first font3">BMW m3 touring</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Súly</span>
-                                                    <span class="text-first font3">1940 kg</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">0-100km/h</span>
-                                                    <span class="text-first font3">
-                                                        3.6 másodperc                                                                </span>
-                                                </li>
-                                            </ul>
-                                            <br>
-                                            <h5 class="font1 text-center">Egyéb tudnivalók</h5>
-                                            <ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Hosszúság</span>
-                                                    <span class="text-first font3">4801 mm	</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Szélesség</span>
-                                                    <span class="text-first font3">1903 mm</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Magasság</span>
-                                                    <span class="text-first font3">1446 mm</span>
-                                                </li>
-    
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3 text-center">Születési év </span>
-                                                    <span class="text-first font3">2014</span>
-                                                </li>
- 
-                                            </ul>
-                                            <br>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card bg-dark text-white border-secondary">
-                                    <img src="img/M5F90.png" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title font2 text-center">BMW M5 F90</h5>
-                                        <p class="card-text">
-                                            </p><ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Megnevezés</span>
-                                                    <span class="text-first font3">BMW m5 f90</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Súly</span>
-                                                    <span class="text-first font3">1940 kg</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">0-100km/h</span>
-                                                    <span class="text-first font3">
-                                                        3.3 másodperc                                                                </span>
-                                                </li>
-                                            </ul>
-                                            <br>
-                                            <h5 class="font1 text-center">Egyéb tudnivalók</h5>
-                                            <ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Hosszúság</span>
-                                                    <span class="text-first font3">	4695 mm	</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Szélesség</span>
-                                                    <span class="text-first font3">1903 mm</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Magasság</span>
-                                                    <span class="text-first font3">1437 mm</span>
-                                                </li>
-    
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3 text-center">Születési év </span>
-                                                    <span class="text-first font3">2022</span>
-                                                </li>
- 
-                                            </ul>
-                                            <br>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="autofelsorolas" class="row row-cols-1 row-cols-md-3 g-4 ">
-                            <div id="autokartyak" class="col">
-                                <div class="card bg-dark text-white border-secondary">
-                                    <img src="img/gt63.png" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title font2 text-center">Mercedes-Benz Gt63s</h5>
-                                        <p class="card-text">
-                                            </p><ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Megnevezés</span>
-                                                    <span class="text-first font3">Mercedes-Benz Gt63s</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Súly</span>
-                                                    <span class="text-first font3">1537 kg</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">0-100km/h</span>
-                                                    <span class="text-first font3">
-                                                        8.6 másodperc                                                                </span>
-                                                </li>
-                                            </ul>
-                                            <br>
-                                            <h5 class="font1 text-center">Egyéb tudnivalók</h5>
-                                            <ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Hosszúság</span>
-                                                    <span class="text-first font3">5054 mm	</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Szélesség</span>
-                                                    <span class="text-first font3">2069 mm</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Magasság</span>
-                                                    <span class="text-first font3">1442 mm</span>
-                                                </li>
-    
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3 text-center">Születési év </span>
-                                                    <span class="text-first font3">2018</span>
-                                                </li>
-                                               
-                                            </ul>
-                                            <br>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card bg-dark text-white border-secondary">
-                                    <img src="img/EvoII.png" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title font2 text-center">Mercedes-Benz 190 Evolution</h5>
-                                        <p class="card-text">
-                                            </p><ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Megnevezés</span>
-                                                    <span class="text-first font3">Mercedes-Benz 190 Evolution</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Súly</span>
-                                                    <span class="text-first font3">1940 kg</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">0-100km/h</span>
-                                                    <span class="text-first font3">
-                                                        2.9 másodperc                                                                </span>
-                                                </li>
-                                            </ul>
-                                            <br>
-                                            <h5 class="font1 text-center">Egyéb tudnivalók</h5>
-                                            <ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Hosszúság</span>
-                                                    <span class="text-first font3">5054 mm	</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Szélesség</span>
-                                                    <span class="text-first font3">2069 mm</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Magasság</span>
-                                                    <span class="text-first font3">1442 mm</span>
-                                                </li>
-    
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3 text-center">Születési év </span>
-                                                    <span class="text-first font3">2018</span>
-                                                </li>
- 
-                                            </ul>
-                                            <br>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card bg-dark text-white border-secondary">
-                                    <img src="img/gWagon.png" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title font2 text-center">Mercedes-Benz G-class G63</h5>
-                                        <p class="card-text">
-                                            </p><ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Megnevezés</span>
-                                                    <span class="text-first font3">Mercedes-Benz G-class G63</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Súly</span>
-                                                    <span class="text-first font3">2560 kg</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">0-100km/h</span>
-                                                    <span class="text-first font3">
-                                                        4.5 másodperc                                                                </span>
-                                                </li>
-                                            </ul>
-                                            <br>
-                                            <h5 class="font1 text-center">Egyéb tudnivalók</h5>
-                                            <ul class="list-group">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Hosszúság</span>
-                                                    <span class="text-first font3">	4837 mm	</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Szélesség</span>
-                                                    <span class="text-first font3">1984 mm</span>
-                                                </li>
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3">Magasság</span>
-                                                    <span class="text-first font3">1966 mm</span>
-                                                </li>
-    
-                                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark border-secondary">
-                                                    <span class="text-white font3 text-center">Születési év </span>
-                                                    <span class="text-first font3">2022</span>
-                                                </li>
- 
-                                            </ul>
-                                            <br>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <br>    
+        <div id="hirlevel" class="container bgcolor2" >
+           <form action="javascript:hir()">
+            <fieldset style="width: fit-content;">
+                <input type="email" name="data" id="mail_input" placeholder="email" required><br>
+                <input type="text" name="data" id="name_input" placeholder="név" required><br>
+                <input type="checkbox" name="data" id="aszf" checked>ászf <br>
+                <input type="checkbox" name="data" id="hir_level"><br>
+                <input type="submit" value="OK">
+            </fieldset>
+           </form>
         </div>
-    </section>
-
-    <footer id="ASZF" class="main-footer bg-dark container-fluid mt-5 pt-3">
-        <div class="container-fluid">
-            <p id="copyright_footer">
-                <a href="#copyright_footer">Copyright: Elek Bence</a>
-            </p>
-        </div>
-    </footer>
     <script>
-        function hir() {
-            if (aszf.checked){
+        function hir(){
+            if  (aszf.checked){
                 localStorage.setItem("email", mail_input.value)
                 localStorage.setItem("name", name_input.value)
-                if (hir_level.checked){
-                    localStorage.setItem("hirlevel", "Elfogadva")
+                if  (hir_level.checked){
+                    localStorage.setItem("hírlevél", "igen")
                 }
                 else{
-                    localStorage.setItem("hirlevel", "Elutasítva")
+                    localStorage.setItem("Hírlevél", "nem")
                 }
-                alert("Adatok sikeresen elmentve.")
             }
             else{
-                alert("El kell fogadnod az ÁSZF-et!")
+                alert("El kell fogadni az ÁSZF-et!")
             }
         }
     </script>
-
-
+    <br>
+    <br>
+    <footer class="footer bgcolor1 color2 font1 text-center">
+        <h4>copyright: Elek Bence</h4>
+        <p>A weboldal a Miskolci SZC Kandó kálmán szakképzési centrum tulajdona, oktatási céllal jött létre.</p>
+    </footer>
 </body>
 </html>

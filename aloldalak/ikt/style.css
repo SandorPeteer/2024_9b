@@ -1,87 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poetsen+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poetsen+One&family=Roboto+Slab:wght@100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 .font1{
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
-.font2{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
     font-style: normal;
   }
-body{
-    background-color: #1a1b1f;
+.font2 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
+
+.tsize1{
+    font-size: 25px;
+}
+
+.color1{
+    color: aquamarine;
+}
+.color2{
+    color: blanchedalmond;
+}
+.bgcolor1{
+    background-color: #373737 ;
+}
+.bgcolor2{
+    background-color: #23262e;
+}
+
+body{
+    background-color: #181818;
+}
+
 a{
     text-decoration: none;
+    color: beige;
 }
 
-a:hover{
-    color: orange;
-}
-
-.gray{
-    background-color: #313338;
-}
-
-.gray2 {
-    background-color: rgb(14, 14, 17);
-}
-
-.gray3{
-    background: #1f1f1f;
-}
-.text-first {
-    color: #00c3ff;
-}
-
-#navbar-navigation{
-    float: right;
-    text-align: right;
-    height: 70px;
-    padding: 10px;
-    font-size: x-large;
-    vertical-align: middle;
-}
-
-#navbar-maintext{
-    text-decoration: none;
-    color: black;
-    display: inline-block;
+.nav-main{
     text-align: center;
-
+    overflow: hidden;
+    font-size: 25px;
 }
 
-#table-main{
-    width: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#footer_aszf{
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+nav a:hover{
+    background-color: beige;
+    color: #181818;
+    transition-delay: 200ms;
     
 }
 
-#copyright_footer{
-    color: white;
-    text-transform: none;
+.stdivp{
+    text-align: center;
+    font-size: 15px;
+} 
+
+.kocsikep{
+    width: 500px;
+    height: 250px;
 }
 
-#autofelsorolas{
-    padding-bottom: 15px;
+.kocsikep2{
+    width: 1280px;
+    height: 1080x;
 }
 
-#hirlevel_checkbox{
-    width: 50px;
-    height: 50px;
-}
-
-.autokep{
-    width: 200px;
-    height: 150px;
+.aloldal2{
+    width: 500px;
+    font-size: 25px;
 }
