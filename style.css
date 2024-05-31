@@ -37,3 +37,10 @@ body{
 .hely{
     margin-bottom: 10px;
 }
+
+.civil{
+    background-image: url(img/pattern.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
